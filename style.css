@@ -11,3 +11,27 @@
     --cor4 : #25E664;
     --cor5 : #0A401C;
 }
+header {
+    display: flex;
+    background-color: var(--cor1);
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+header > div#menu {
+    margin-left: 20px;
+}
+header > div#logo{
+    width: 50px;
+    margin-left: 20px;
+}
+header > div#logo > img{
+    width: 50px;
+}
+header > div#pesquisa{
+    margin-left: 20px;
+}
+header > div#pesquisa > input{
+    margin-left: 20px;
+    width: 40vw;
+}
