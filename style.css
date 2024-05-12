@@ -2,15 +2,13 @@
     margin: 0px;
     padding: 0px;
 }
-header {
-    height: 15vh;
-}
+
 header > h1 {
     text-align: center;
 }
 main {
    background-color: lightgreen; 
-   height: 80vh;
+   height: 100vh;
 }
 main > h1 {
     text-align: center;
@@ -30,4 +28,9 @@ main > div#fotoMercado > p {
     flex-basis: 30vw;
     flex-grow: 0;
     margin-bottom: 0px;
+}
+footer {
+    background-color: rgb(51, 156, 88);
+    text-align: center;
+    color: black;
 }
