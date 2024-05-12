@@ -11,3 +11,7 @@
     --cor4 : #25E664;
     --cor5 : #0A401C;
 }
+
+footer{
+    border-top: 1px solid black;
+}
