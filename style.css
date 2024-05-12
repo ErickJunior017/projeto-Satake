@@ -26,30 +26,6 @@ header > span#menu {
 header > span#menu:hover {
     cursor: pointer;
 }
-main > div#itens {
-    display: none;
-}
-main > div#itens > ul{
-    background-color: var(--cor4);
-    width: 15vw;
-    padding: 10px;
-}
-main > div#itens > ul > li{
-    list-style: none;
-    margin-bottom: 10px;
-    border-top: 1px solid black;
-    padding: 3px;
-}
-main > div#itens > ul > li#ultimo{
-    list-style: none;
-    margin-bottom: 10px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: 3px;
-}
-main > div#itens > ul > li > a:hover{
-    cursor: pointer;
-}
 header > div#logo{
     width: 50px;
     margin-left: 20px;
@@ -81,7 +57,7 @@ header > span#iconePesquisa:hover{
 }
 header > img#contato{
     color: var(--cor5);
-    margin-left: 10vw;
+    margin-left: 5vw;
     width: 30px;
     height: 30px;
 }
@@ -92,10 +68,36 @@ header > img#contato:hover{
     cursor: pointer;
     transition: .5s;
 }
+header > span#cart{
+    margin-left: 3vw;
+}
 main {
     height: 80vh;
 }
-
+main > div#itens {
+    display: none;
+}
+main > div#itens > ul{
+    background-color: var(--cor4);
+    width: 15vw;
+    padding: 10px;
+}
+main > div#itens > ul > li{
+    list-style: none;
+    margin-bottom: 10px;
+    border-top: 1px solid black;
+    padding: 3px;
+}
+main > div#itens > ul > li#ultimo{
+    list-style: none;
+    margin-bottom: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 3px;
+}
+main > div#itens > ul > li > a:hover{
+    cursor: pointer;
+}
 #pagamento{
     width: 90vw;
     padding: 0px 10px;
