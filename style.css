@@ -23,7 +23,6 @@ main > div#fotoMercado {
     display: flex;
     height: 30vh;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 main > div#fotoMercado > img {
     width: 50vw;
