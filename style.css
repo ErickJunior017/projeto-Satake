@@ -57,7 +57,7 @@ header > span#iconePesquisa:hover{
 }
 header > span#contato{
     color: var(--cor5);
-    margin-left: 15vw;
+    margin-left: 10vw;
 }
 header > span#contato:hover{
     background-color: var(--cor3);
