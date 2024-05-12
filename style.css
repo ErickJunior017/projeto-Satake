@@ -17,8 +17,6 @@ body{
 
 header {
     background-color: var(--cor2);
-    
-    
     padding: 10px;
     margin-bottom: 10px;
     
@@ -33,6 +31,8 @@ header > h1 {
 
 
 main {
+    display: flex;
+    flex-direction: column;
    background-color: white; 
    height: 100vh;
    width: 95vw;
@@ -50,11 +50,6 @@ main > h1 {
 }
 
 
-main > div#fotoMercado {
-    display: flex;
-   
-    flex-direction: column;
-}
 main > div#fotoMercado > img {
     margin-top: 6px;
     max-width: 100vw;
@@ -63,13 +58,10 @@ main > div#fotoMercado > p {
     margin-bottom: 10px;
 }
 
-
-main > div#foto2 {
-    display: flex;
-    flex-direction: column;
-}
 main > div#foto2 > img {
-    max-width: 100vw;
+    display: block;
+    width: 80vw;
+    margin: auto;
 }
 main > div#foto2 > p {
     margin-bottom: 10px;
