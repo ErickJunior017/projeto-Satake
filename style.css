@@ -34,8 +34,20 @@ header > div#pesquisa{
     margin-left: 20px;
 }
 header > div#pesquisa > input{
-    margin-left: 20px;
+    margin-left: 10px;
     width: 40vw;
+    height: 23px;
+    padding: 3px;
+    border: 1px solid rgb(35, 35, 203);
+    border-radius: 4px 0px 0px 4px;
+}
+header > span#iconePesquisa{
+    height: 23px;
+    padding: 3px;
+    border: 1px solid rgb(35, 35, 203);
+    border-radius: 0px 4px 4px 0px;
+    background-color: rgb(35, 35, 203);
+    color: rgba(255, 255, 255, 0.908);
 }
 footer{
     border-top: 1px solid black;
