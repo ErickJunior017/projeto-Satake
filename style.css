@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: rgb(191, 234, 191);
+}
 header > h1 {
     text-align: center;
 }
@@ -11,6 +14,7 @@ main {
 }
 main > h1 {
     text-align: center;
+    margin-bottom: 6px;
 }
 main > div#fotoMercado {
     display: flex;
@@ -18,15 +22,15 @@ main > div#fotoMercado {
     justify-content: space-around;
 }
 main > div#fotoMercado > img {
-    border: 1px solid black;
-    flex-basis: 40vw;
+    width: 50vw;
     flex-grow: 0;
+    margin-top: 6px;
 }
 main > div#fotoMercado > p {
-    border: 1px solid black;
     flex-basis: 30vw;
     flex-grow: 0;
     margin-bottom: 0px;
+    margin-left: 10px;
 }
 footer {
     background-color: rgb(51, 156, 88);
