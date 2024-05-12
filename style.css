@@ -56,6 +56,18 @@ footer{
 footer #endereco{
     
     padding: 10px;
-    font-size: 0.75em;
+    font-size: 0.9em;
     text-align: center;
+}
+
+footer span{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    height: 30px;
+    width: 80px;
+}
+
+#local{
+    margin-top: 20px;
 }
