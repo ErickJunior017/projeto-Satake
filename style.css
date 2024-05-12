@@ -86,6 +86,14 @@ footer{
     font-size: 1.09em;
     font-weight: normal;
     color: var(--cor4);
+    display: inline;
+}
+
+#pagamento p{
+    display: inline;
+    float: right;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 footer #endereco{
