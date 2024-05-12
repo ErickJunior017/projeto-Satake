@@ -55,11 +55,13 @@ header > span#iconePesquisa{
 header > span#iconePesquisa:hover{
     cursor: pointer;
 }
-header > span#contato{
+header > img#contato{
     color: var(--cor5);
     margin-left: 10vw;
+    width: 30px;
+    height: 30px;
 }
-header > span#contato:hover{
+header > img#contato:hover{
     background-color: var(--cor3);
     color: var(--cor1);
     border-radius: 10px;
