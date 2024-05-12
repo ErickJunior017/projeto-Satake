@@ -2,6 +2,32 @@
     margin: 0px;
     padding: 0px;
 }
+header {
+    height: 15vh;
+}
 header > h1 {
     text-align: center;
+}
+main {
+   background-color: lightgreen; 
+   height: 80vh;
+}
+main > h1 {
+    text-align: center;
+}
+main > div#fotoMercado {
+    display: flex;
+    height: 40vh;
+    justify-content: space-around;
+}
+main > div#fotoMercado > img {
+    border: 1px solid black;
+    flex-basis: 40vw;
+    flex-grow: 0;
+}
+main > div#fotoMercado > p {
+    border: 1px solid black;
+    flex-basis: 30vw;
+    flex-grow: 0;
+    margin-bottom: 0px;
 }
