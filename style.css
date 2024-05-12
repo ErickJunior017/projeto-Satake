@@ -118,13 +118,18 @@ main {
     grid-template-columns: auto auto;
 }
 
-#pagamento img{
+#formas .cartoes{
+    width: 50px;
+    height: 40px;
+}
+
+#pagamento  #flecha{
     float: right;
     font-size: 2em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#pagamento img:hover{
+#pagamento  #flecha:hover{
     background-color: gray;
     border-radius: 50%;
     transition: 0.5s;
