@@ -4,7 +4,11 @@
 }
 
 :root{
-    --cor1 : 
+    --cor1 : #148038;
+    --cor2 : #1FBF54;
+    --cor3 : #29FF70;
+    --cor4 : #25E664;
+    --cor5 : #0A401C;
 }
 body{
     background-color: rgb(191, 234, 191);
@@ -15,7 +19,7 @@ header > h1 {
 
 
 main {
-   background-color: lightgreen; 
+   background-color: rgb(255, 255, 255); 
    height: 100vh;
    width: 100vw;
 }
