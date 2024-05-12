@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
     margin: 0px;
     padding: 0px;
@@ -39,7 +41,9 @@ footer{
     border-top: 1px solid black;
 }
 
-svg{
-    width: 40px;
-    display: flex;
+footer #endereco{
+    
+    padding: 10px;
+    font-size: 0.75em;
+    text-align: center;
 }
