@@ -10,9 +10,7 @@
 </head>
 <body >
     <header>
-        <div id="menu">
-            menu
-        </div>
+        <span class="material-symbols-outlined" id="menu" onclick="navegar()">menu</span>
         <div id="logo">
             <img src="imagens/mercado1.jpg" alt="logo">
         </div>
@@ -23,7 +21,14 @@
         <img src="imagens/icons8-pessoa-24.png" alt="pessoas" id="contato">
     </header>
     <main>
-        
+        <div id="itens">
+            <ul>
+                <li><a>Carnes</a></li>
+                <li><a>Frutas</a></li>
+                <li><a>Verduras</a></li>
+                <li id="ultimo"><a>Descontos</a></li>
+            </ul>
+        </div>
     </main>
     <footer>
         <div>
@@ -52,7 +57,14 @@
         </div>
     </footer>
     <script>
-
+        function navegar (){
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none';
+            }
+            else {
+                itens.style.display = 'block';
+            }
+        }
     </script>
 </body>
 </html>
