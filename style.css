@@ -11,26 +11,33 @@ header > h1 {
 main {
    background-color: lightgreen; 
    height: 100vh;
+   width: 100vw;
 }
 main > h1 {
     text-align: center;
     margin-bottom: 6px;
 }
+
+
 main > div#fotoMercado {
     display: flex;
-    height: 40vh;
+    height: 30vh;
     justify-content: space-around;
 }
 main > div#fotoMercado > img {
     width: 50vw;
-    flex-grow: 0;
     margin-top: 6px;
 }
 main > div#fotoMercado > p {
-    flex-basis: 30vw;
-    flex-grow: 0;
     margin-bottom: 0px;
     margin-left: 10px;
+}
+
+
+main > div#foto2 {
+    display: flex;
+    margin-top: 20px;
+    height: 30vh;
 }
 footer {
     background-color: rgb(51, 156, 88);
