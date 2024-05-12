@@ -35,3 +35,11 @@ header > div#pesquisa > input{
     margin-left: 20px;
     width: 40vw;
 }
+footer{
+    border-top: 1px solid black;
+}
+
+svg{
+    width: 40px;
+    display: flex;
+}
