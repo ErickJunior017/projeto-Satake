@@ -22,13 +22,23 @@ header > h1 {
 main {
    background-color: rgb(255, 255, 255); 
    height: 100vh;
+<<<<<<< Updated upstream
    width: 95vw;
    margin: auto;
+=======
+   max-width: 90vw;
+   margin: auto;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.267);
+   border-radius: 5px;
+   padding: 10px;
+>>>>>>> Stashed changes
 }
 
 main > h1 {
     text-align: center;
     margin-bottom: 6px;
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2), transparent);
+    color: white;
 }
 
 
@@ -64,14 +74,25 @@ main > div#foto2 > p {
 
 
 footer {
-    background-color: rgb(51, 156, 88);
+    background-color: white;
     text-align: center;
     color: black;
+    padding: 10px;
+    margin-top: 5px;
+    box-shadow: 10px 10px 10px black;
 }
 footer > div > p{
     margin: 0px;
+    color: black;
+    font:  normal bolder 1.1em Arial, sans-serif;
 }
 footer > div > p > a{
     text-decoration: none;
-    color: rgb(246, 240, 240);
+    color: var(--cor2);
 }
+
+footer > div > p > a:hover{
+    color: var(--cor5);
+}
+
+
