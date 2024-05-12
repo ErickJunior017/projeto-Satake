@@ -71,29 +71,39 @@ header > img#contato:hover{
 main {
     height: 80vh;
 }
-footer{
-    
-}
 
 #pagamento{
-    margin: 0px 10px 0px 10px;
-    border-top: 1px solid rgba(0, 0, 0, 0.507);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.514);
-    padding: 10px;
+    width: 90vw;
+    padding: 0px 10px;
+    margin: auto;
 }
 
 #pagamento h1{
     font-size: 1.09em;
     font-weight: normal;
     color: var(--cor4);
-    display: inline;
+    border-top: 1px solid rgba(0, 0, 0, 0.507);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.514);
+    padding: 20px;
 }
 
-#pagamento p{
-    display: inline;
+#pagamento #formas{
+    display: grid;
+    background-color: rgba(128, 128, 128, 0.089);
+    padding: 20px;
+    grid-template-columns: auto auto;
+}
+
+#pagamento img{
     float: right;
     font-size: 2em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#pagamento img:hover{
+    background-color: gray;
+    border-radius: 50%;
+    transition: 0.5s;
 }
 
 footer #endereco{
