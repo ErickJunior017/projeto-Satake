@@ -17,8 +17,7 @@ header {
     display: flex;
     background-color: var(--cor4);
     align-items: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 10px;
 }
 header > span#menu {
     margin-left: 20px;
@@ -43,6 +42,7 @@ header > div#pesquisa > input{
     padding: 3px;
     border: 1px solid rgb(35, 35, 203);
     border-radius: 4px 0px 0px 4px;
+
 }
 
 header > span#iconePesquisa{
@@ -61,6 +61,7 @@ header > img#contato{
     margin-left: 5vw;
     width: 30px;
     height: 30px;
+    
 }
 header > img#contato:hover{
     background-color: var(--cor3);
@@ -112,6 +113,7 @@ main > div#itens > ul > li > a:hover{
     border-top: 1px solid rgba(0, 0, 0, 0.507);
     border-bottom: 1px solid rgba(0, 0, 0, 0.514);
     padding: 20px;
+    margin: 0px;
 }
 
 #card{
@@ -128,7 +130,6 @@ main > div#itens > ul > li > a:hover{
     grid-template-columns: repeat(3, 1fr);
    gap: 5px 5px;
    
-
 }
 
 .containercard p{
@@ -188,4 +189,4 @@ footer span{
 
 #local strong{
     display: block;
-}
+}   
