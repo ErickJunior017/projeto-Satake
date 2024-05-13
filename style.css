@@ -131,14 +131,24 @@ main > div#itens > ul > li > a:hover{
 
 }
 
+.containercard p{
+    font-weight: bold;
+
+}
+
 .containercard p#credito{
+    grid-column: 1 / span 3;
+    
+}
+
+.containercard p#debito{
     grid-column: 1 / span 3;
     
 }
 
 #card .cartoes{
     width: 40px;
-    height: 20px;
+    height: 30px;
     margin-top: 5px;
 }
 
@@ -174,4 +184,8 @@ footer span{
 
 #local{
     margin-top: 20px;
+}
+
+#local strong{
+    display: block;
 }
