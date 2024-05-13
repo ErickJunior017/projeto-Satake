@@ -32,31 +32,35 @@
         </div>
     </main>
     <footer>
-        <div>
-            <div id="pagamento">
-                <h1 onclick="formas()" id="h1formas">Formas de pagamento
-                <img src="imagens/icons8-divisa-para-baixo-24.png" alt="" id="flecha"></h1>
+        <div id="pagamento">
+            <h1  id="h1formas">Formas de pagamento
+                <img src="imagens/icons8-divisa-para-baixo-24.png" alt="" id="flechabaixo" onclick="formas()">
+                <img src="imagens/icons8-divisa-para-cima-24.png" alt="" id="flechacima" onclick="formas()">
+            </h1>
                 
-                 <div id="formas">
-                    <div>
-                        <p>Crédito</p>
-                        <img src="imagens/cartoes/mastercard.png" alt="" class="cartoes">
-                    </div>
-                    <div>
-                        <p>Débito bancário</p>
-                    </div>
+            
+                    
+            <div id="card">
+                <div class="containercard">
+                    <p>Crédito</p>
+                    <img src="imagens/cartoes/mastercard.png" alt="" class="cartoes" style="height: 40px;">
+                    <img src="imagens/cartoes/elo.png" alt="" class="cartoes">
+                </div>
+                <div class="containercard">
+                    <p>Débito bancário</p>
+                </div>
             </div>
-            </div>
-           
-            <div id="endereco">
-                <span><img src="imagens/icons8-cadeado-32.png" alt="" ><p>Ambiente <strong>Seguro</strong></p></span>
+            
+                    
+        </div>
+            
+        <div id="endereco">
+            <span><img src="imagens/icons8-cadeado-32.png" alt="" ><p>Ambiente <strong>Seguro</strong></p></span>
                 <p id="local">
                     <strong>Endereço:</strong>
                     <br>
                     São José Rio preto - SP, Rua José Euflausineo Filho, Centro, nº 1658 | CEP 15225-000
                 </p>
-            </div>
-            
         </div>
     </footer>
     <script>
@@ -67,6 +71,19 @@
             else {
                 itens.style.display = 'block';
             }
+        }
+
+        function formas(){
+            if(card.style.display == 'flex' && flechacima.style.display == 'inline'){
+                card.style.display = 'none';
+                flechacima.style.display = 'none';
+                flechabaixo.style.display = 'inline';
+            }
+            else{
+                card.style.display = 'flex';
+                flechacima.style.display = 'inline';
+                flechabaixo.style.display = 'none';
+            } 
         }
     </script>
 </body>

@@ -113,28 +113,39 @@ main > div#itens > ul > li > a:hover{
     padding: 20px;
 }
 
-#pagamento #formas{
-    display: grid;
+#card{
+    
+    display: flex;
     background-color: rgba(128, 128, 128, 0.089);
     padding: 20px;
-    grid-template-columns: auto auto;
+    
 }
 
-#formas .cartoes{
+.containercard{
+    margin-right: 90px;
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+
+#card .cartoes{
     width: 50px;
-    height: 40px;
+    height: 30px;
 }
 
-#pagamento  #flecha{
+#pagamento  #flechabaixo{
+    display: none;
     float: right;
-    font-size: 2em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#pagamento  #flecha:hover{
-    background-color: gray;
+#pagamento  #flechacima{
+    display: inline;
+    float: right;
+}
+
+#pagamento  #flechacima, #flechabaixo:hover{
+    background-color: rgba(128, 128, 128, 0.514);
     border-radius: 50%;
-    transition: 0.5s;
+    cursor: pointer;
 }
 
 footer #endereco{
