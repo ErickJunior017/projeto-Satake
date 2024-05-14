@@ -19,3 +19,4 @@ function formas(){
         flechabaixo.style.display = 'none';
     } 
 }
+
