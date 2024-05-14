@@ -20,23 +20,22 @@ header {
     padding: 10px;
 }
 header > span#menu {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 header > span#menu:hover {
     cursor: pointer;
 }
 header > div#logo{
     width: 50px;
-    margin-left: 20px;
+    margin-left: 3vw;
 }
 header > div#logo > img{
     width: 50px;
 }
 header > div#pesquisa{
-    margin-left: 20px;
+    margin-left: 3vw;
 }
 header > div#pesquisa > input{
-    margin-left: 10px;
     width: 40vw;
     height: 23px;
     padding: 3px;
