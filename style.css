@@ -188,4 +188,68 @@ footer span{
 
 #local strong{
     display: block;
-}   
+}
+
+.txt-animado{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: monospace;
+}
+
+.txt-animado span{
+    position: relative;
+}
+
+.txt-animado span::before{
+    content: "";
+    color: #ff007b;
+    animation: palavras 20s infinite;
+}
+
+.txt-animado span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 2px solid #ff007b;
+    right: -10px;
+    animation: cursor .8s infinite, digita 20s steps(50) infinite;
+    width: calc(100%);
+    background-color: white;
+}
+
+@keyframes digita {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+        width: 0;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
+        width: calc(100%);
+    }
+}
+
+@keyframes cursor {
+    0%{
+        border-left: 2px solid white;
+    }
+}
+
+@keyframes palavras {
+    0%, 20%{
+        content: " Guilherme Corno!";
+    }
+
+    21%, 40%{
+        content: " Me MAMA!";
+    }
+
+    41%, 60%{
+        content: " Guilerme Frango!";
+    }
+
+    61%, 80%{
+        content: " Vai estuda Moleque!";
+    }
+
+    81%, 100%{
+        content: " Muito ruim no LoL!";
+    }
+}
