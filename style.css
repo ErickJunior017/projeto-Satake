@@ -190,66 +190,44 @@ footer span{
     display: block;
 }
 
-.txt-animado{
-    font-size: 30px;
-    font-weight: 700;
-    font-family: monospace;
-}
-
-.txt-animado span{
-    position: relative;
-}
-
-.txt-animado span::before{
-    content: "";
-    color: #ff007b;
-    animation: palavras 20s infinite;
-}
-
-.txt-animado span::after{
-    content: "";
-    position: absolute;
-    height: 100%;
-    border-left: 2px solid #ff007b;
-    right: -10px;
-    animation: cursor .8s infinite, digita 20s steps(50) infinite;
-    width: calc(100%);
-    background-color: white;
-}
-
-@keyframes digita {
-    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
-        width: 0;
-    }
-    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
-        width: calc(100%);
-    }
-}
-
-@keyframes cursor {
+@keyframes surgirImagem{
     0%{
-        border-left: 2px solid white;
+        transform: translate(-1000px);
+        background-color: transparent;
+        opacity: 0;
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
     }
 }
-
-@keyframes palavras {
-    0%, 20%{
-        content: " Erick Corno!";
+@keyframes palavra {
+    0%{
+        transform: translateX(-1000px);
+        transform: rotate(0);
+        color: aqua;
     }
-
-    21%, 40%{
-        content: " Foi só ficar cheio de veia";
+    100%{
+        transform: rotate(360deg);
+        color: #0A401C;
     }
+}
+    
 
-    41%, 60%{
-        content: " Que começou a se achar!";
-    }
 
-    61%, 80%{
-        content: " Quem...?";
-    }
+.surgir{
+    animation: surgirImagem 2.5s ease-in-out;
+    translate: 30vw 10vh;
+    border-radius: 10px;
+    border: 2px solid rgb(12, 184, 214);
 
-    81%, 100%{
-        content: " Meu pau!";
-    }
+}
+
+.surgir:hover{
+    transform: translate(-5px, -5px);
+    
+}
+h1{
+    text-align: center;
+    animation: palavra 2s ease-in-out infinite;
 }
