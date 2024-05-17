@@ -12,10 +12,11 @@
     --cor3 : #10ACE0;
     --cor4 : #106AE0;
     --cor5 : #1028E0;
+    --cor6 : #85ccf8;
 }
 header {
     display: flex;
-    background-color: rgb(133, 204, 248);
+    background-color: var(--cor6);
     align-items: center;
     padding: 15px;
 }
@@ -55,7 +56,6 @@ header > span#iconePesquisa:hover{
     cursor: pointer;
 }
 header > img#contato{
-    color: var(--cor5);
     margin-left: 5vw;
     width: 30px;
     height: 30px;
@@ -63,14 +63,19 @@ header > img#contato{
 }
 header > img#contato:hover{
     background-color: var(--cor3);
-    color: var(--cor1);
     border-radius: 10px;
     cursor: pointer;
     transition: .5s;
 }
 header > span#cart{
     margin-left: 3vw;
-
+    cursor: pointer;
+    padding: 2px;
+}
+header > span#cart:hover{
+    background-color: var(--cor3);
+    border-radius: 10px;
+    transition: .5s;
 }
 main {
     height: 80vh;
