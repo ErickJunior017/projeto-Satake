@@ -7,17 +7,17 @@
 }
 
 :root{
-    --cor1 : #148038;
-    --cor2 : #1FBF54;
-    --cor3 : #29FF70;
-    --cor4 : #25E664;
-    --cor5 : #0A401C;
+    --cor1 : #43B9E0;
+    --cor2 : #10E0D2;
+    --cor3 : #10ACE0;
+    --cor4 : #106AE0;
+    --cor5 : #1028E0;
 }
 header {
     display: flex;
-    background-color: var(--cor4);
+    background-color: rgb(133, 204, 248);
     align-items: center;
-    padding: 10px;
+    padding: 15px;
 }
 header > span#menu {
     margin-left: 10px;
@@ -70,6 +70,7 @@ header > img#contato:hover{
 }
 header > span#cart{
     margin-left: 3vw;
+
 }
 main {
     height: 80vh;
