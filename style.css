@@ -115,8 +115,7 @@ main > div#itens > ul > li > a:hover{
 }
 
 #card{
-    
-    display: flex;
+    display: none;
     background-color: rgba(128, 128, 128, 0.089);
     padding: 20px;
     
@@ -162,7 +161,8 @@ main > div#itens > ul > li > a:hover{
 }
 
 #pagamento  #flechacima, #flechabaixo:hover{
-    background-color: rgba(128, 128, 128, 0.514);
+    background-color: var(--cor4);
+    transition: 1s;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -188,46 +188,4 @@ footer span{
 
 #local strong{
     display: block;
-}
-
-@keyframes surgirImagem{
-    0%{
-        transform: translate(-1000px);
-        background-color: transparent;
-        opacity: 0;
-        transform: rotate(0);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
-@keyframes palavra {
-    0%{
-        transform: translateX(-1000px);
-        transform: rotate(0);
-        color: aqua;
-    }
-    100%{
-        transform: rotate(360deg);
-        color: #0A401C;
-    }
-}
-    
-
-
-.surgir{
-    animation: surgirImagem 2.5s ease-in-out;
-    translate: 30vw 10vh;
-    border-radius: 10px;
-    border: 2px solid rgb(12, 184, 214);
-
-}
-
-.surgir:hover{
-    transform: translate(-5px, -5px);
-    
-}
-h1{
-    text-align: center;
-    animation: palavra 2s ease-in-out infinite;
 }
