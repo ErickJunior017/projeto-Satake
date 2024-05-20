@@ -15,7 +15,6 @@
     --cor6 : #85ccf8;
 }
 header {
-    display: flex;
     background-color: var(--cor6);
     align-items: center;
     padding: 15px;
@@ -27,6 +26,7 @@ header > span#menu:hover {
     cursor: pointer;
 }
 header > div#logo{
+    display: inline;
     width: 50px;
     margin-left: 3vw;
 }
@@ -34,7 +34,8 @@ header > div#logo > img{
     width: 50px;
 }
 header > div#pesquisa{
-    margin-left: 3vw;
+    display: flex;
+    justify-content: center;
 }
 header > div#pesquisa > input{
     width: 40vw;
@@ -44,7 +45,7 @@ header > div#pesquisa > input{
     border-radius: 4px 0px 0px 4px;
 }
 
-header > span#iconePesquisa{
+header > div#pesquisa > span#iconePesquisa{
     height: 23px;
     padding: 3px;
     border: 1px solid rgb(35, 35, 203);
@@ -52,14 +53,14 @@ header > span#iconePesquisa{
     background-color: rgb(35, 35, 203);
     color: rgba(255, 255, 255, 0.908);
 }
-header > span#iconePesquisa:hover{
+header > div#pesquisa > span#iconePesquisa:hover{
     cursor: pointer;
 }
 header > img#contato{
     margin-left: 5vw;
     width: 25px;
     height: 26px;
-    
+    display: inline;
 }
 header > img#contato:hover{
     background-color: var(--cor3);
