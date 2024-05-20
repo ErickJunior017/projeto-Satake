@@ -15,13 +15,15 @@
     --cor6 : #85ccf8;
 }
 header {
-    display: flex;
+    
+    flex-wrap: wrap;
     background-color: var(--cor6);
     align-items: center;
     padding: 15px;
 }
 header > span#menu {
     margin-left: 10px;
+    display: inline;
 }
 header > span#menu:hover {
     cursor: pointer;
@@ -29,13 +31,16 @@ header > span#menu:hover {
 header > div#logo{
     width: 50px;
     margin-left: 3vw;
+    display: inline;
 }
 header > div#logo > img{
     width: 50px;
 }
+
 header > div#pesquisa{
-    margin-left: 3vw;
+    
 }
+
 header > div#pesquisa > input{
     width: 40vw;
     height: 23px;
