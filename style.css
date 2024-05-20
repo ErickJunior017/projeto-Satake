@@ -24,18 +24,7 @@ header {
     display: flex;
     justify-content: space-around;
 }
-div.esquerda {
-    display: flex;
-}
-
-div.direita {
-    display: inline;
-
-}
-div.esquerda > span#menu {
-
-}
-div.esquerda > span#menu:hover {
+span#menu:hover {
     cursor: pointer;
 }
 div#logo{
