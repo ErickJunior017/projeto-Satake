@@ -121,8 +121,7 @@ main > div#itens > ul > li > a:hover{
 }
 
 #card{
-    
-    display: flex;
+    display: none;
     background-color: rgba(128, 128, 128, 0.089);
     padding: 20px;
     
@@ -168,7 +167,8 @@ main > div#itens > ul > li > a:hover{
 }
 
 #pagamento  #flechacima, #flechabaixo:hover{
-    background-color: rgba(128, 128, 128, 0.514);
+    background-color: var(--cor4);
+    transition: 1s;
     border-radius: 50%;
     cursor: pointer;
 }
