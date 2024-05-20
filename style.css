@@ -23,6 +23,7 @@ header {
 .flex {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 span#menu:hover {
     cursor: pointer;
@@ -36,6 +37,7 @@ div#logo > img{
 }
 
 div#pesquisa{
+    width: 100vw;
     display: flex;
     justify-content: center;
 }

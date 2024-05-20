@@ -4,6 +4,25 @@
 
 }
 @media screen and (min-width: 992px) {
+  .flex {
+    flex-wrap: nowrap;
+  }
+  .flex > span#menu {
+    order: 1;
+  }
+  .flex > div#logo {
+    order: 2;
+  }
+  .flex > div#pesquisa {
+    order: 3;
+    width: auto;
+  }
+  .flex > img#contato {
+    order: 4;
+  }
+  .flex > span#cart {
+    order: 5;
+  }
 
 }
 @media screen and (min-width: 1340px) {
