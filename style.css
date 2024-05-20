@@ -15,6 +15,7 @@
     --cor6 : #85ccf8;
 }
 header {
+    flex-wrap: wrap;
     background-color: var(--cor6);
     align-items: center;
     padding: 15px;
@@ -44,6 +45,7 @@ div#logo{
 div#logo > img{
     width: 50px;
 }
+
 div#pesquisa{
     display: flex;
     justify-content: center;
