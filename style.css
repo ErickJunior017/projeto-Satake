@@ -163,19 +163,20 @@ main > div#itens > ul > li > a:hover{
 }
 
 #pagamento  #flechabaixo{
-    display: none;
+    display: inline;
     float: right;
+    background-color: transparent;
 }
 
 #pagamento  #flechacima{
-    display: inline;
+    display: none;
     float: right;
+    background-color: transparent;
 }
 
 #pagamento  #flechacima, #flechabaixo:hover{
-    background-color: var(--cor4);
-    transition: 1s;
-    border-radius: 50%;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor4), var(--cor5));
+    border-radius: 10px;
     cursor: pointer;
 }
 
