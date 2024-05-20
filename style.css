@@ -18,12 +18,7 @@ header {
     display: flex;
     background-color: var(--cor6);
     align-items: center;
-<<<<<<< HEAD
-    padding: 10px;
-    background-attachment: scroll;
-=======
     padding: 15px;
->>>>>>> 9b5fc0c0e826f999ce2da96d055efd0d599b00cf
 }
 header > span#menu {
     margin-left: 10px;
