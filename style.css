@@ -20,29 +20,37 @@ header {
     align-items: center;
     padding: 15px;
 }
-header > span#menu {
-    margin-left: 10px;
-    display: inline;
+.flex {
+    display: flex;
+    justify-content: space-around;
 }
-header > span#menu:hover {
+div.esquerda {
+    display: flex;
+}
+
+div.direita {
+    display: inline;
+
+}
+div.esquerda > span#menu {
+
+}
+div.esquerda > span#menu:hover {
     cursor: pointer;
 }
-header > div#logo{
+div#logo{
     display: inline;
     width: 50px;
-    margin-left: 3vw;
-    display: inline;
 }
-header > div#logo > img{
+div#logo > img{
     width: 50px;
 }
 
-header > div#pesquisa{
+div#pesquisa{
     display: flex;
     justify-content: center;
 }
-
-header > div#pesquisa > input{
+div#pesquisa > input{
     width: 40vw;
     height: 23px;
     padding: 3px;
@@ -50,7 +58,7 @@ header > div#pesquisa > input{
     border-radius: 4px 0px 0px 4px;
 }
 
-header > div#pesquisa > span#iconePesquisa{
+div#pesquisa > span#iconePesquisa{
     height: 23px;
     padding: 3px;
     border: 1px solid rgb(35, 35, 203);
@@ -58,27 +66,27 @@ header > div#pesquisa > span#iconePesquisa{
     background-color: rgb(35, 35, 203);
     color: rgba(255, 255, 255, 0.908);
 }
-header > div#pesquisa > span#iconePesquisa:hover{
+div#pesquisa > span#iconePesquisa:hover{
     cursor: pointer;
 }
-header > img#contato{
+img#contato{
     margin-left: 5vw;
     width: 25px;
     height: 26px;
     display: inline;
 }
-header > img#contato:hover{
+img#contato:hover{
     background-color: var(--cor3);
     border-radius: 10px;
     cursor: pointer;
     transition: .5s;
 }
-header > span#cart{
+span#cart{
     margin-left: 3vw;
     cursor: pointer;
     padding: 2px;
 }
-header > span#cart:hover{
+span#cart:hover{
     background-color: var(--cor3);
     border-radius: 10px;
     transition: .5s;
