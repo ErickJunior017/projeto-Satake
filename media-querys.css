@@ -7,10 +7,6 @@
   header > img#contato{
     margin-left: 11vw;
   }
-  header > div#pesquisa {
-    margin-left: 11vw;
-  }
-  
 }
 @media screen and (min-width: 992px) {
   header > div#logo{
@@ -19,9 +15,6 @@
   header > img#contato{
     margin-left: 18vw;
   }
-  header > div#pesquisa {
-    margin-left: 11vw;
-  }
 }
 @media screen and (min-width: 1340px) {
   header > div#logo{
@@ -29,8 +22,5 @@
   }
   header > img#contato{
     margin-left: 15vw;
-  }
-  header > div#pesquisa {
-    margin-left: 16vw;
   }
 }
