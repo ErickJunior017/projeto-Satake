@@ -18,6 +18,7 @@ header {
     background-color: var(--cor4);
     align-items: center;
     padding: 10px;
+    background-attachment: scroll;
 }
 header > span#menu {
     margin-left: 10px;
