@@ -20,3 +20,11 @@ function formas(){
     } 
 }
 
+$(document).ready(function(){
+    $('#barraPesquisa').focus(function(){
+        $('#barraPesquisa').css({"outline": "none", "border": "1.2px solid rgb(6, 6, 141)" });
+    });
+    $('#barraPesquisa').blur(function(){
+        $('#barraPesquisa').css({"outline": "none", "border": "1px solid rgb(35, 35, 203)" });
+    });
+});
