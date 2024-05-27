@@ -24,6 +24,7 @@ header {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
 }
 span#menu:hover {
     cursor: pointer;
@@ -44,18 +45,20 @@ div#pesquisa{
 div#pesquisa > input{
     width: 40vw;
     height: 23px;
-    padding: 3px;
+    padding: 13px;
     border: 1px solid rgb(35, 35, 203);
     border-radius: 4px 0px 0px 4px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.214);
 }
 
 div#pesquisa > span#iconePesquisa{
-    height: 23px;
+    height: 27.5px;
     padding: 3px;
     border: 1px solid rgb(35, 35, 203);
     border-radius: 0px 4px 4px 0px;
     background-color: rgb(35, 35, 203);
     color: rgba(255, 255, 255, 0.908);
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.214);
 }
 div#pesquisa > span#iconePesquisa:hover{
     cursor: pointer;
