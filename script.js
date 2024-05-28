@@ -19,7 +19,7 @@ function formas(){
         flechabaixo.style.display = 'none';
     } 
 }
-
+/* Codigo Lixo*/
 $(document).ready(function(){
     $('#barraPesquisa').focus(function(){
         $('#barraPesquisa').css({"outline": "none", "border": "1.2px solid rgb(6, 6, 141)" });
