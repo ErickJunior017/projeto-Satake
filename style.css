@@ -93,6 +93,7 @@ main {
 }
 .produtos {
     text-align: center;
+    margin: 20px 0px 0px 0px
 }
 .madeira {
     background-image: url(imagens/madeira2.jpg);
@@ -100,6 +101,9 @@ main {
     background-position: center;
     height: 30vh;
     color: white;
+}
+.last{
+    margin-bottom: 20px;
 }
 .madeira > img{
     display: inline-block;
@@ -116,6 +120,7 @@ main > div.carnes {
 main > #hortifruti {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
 }
 #pagamento{
     width: 90vw;
