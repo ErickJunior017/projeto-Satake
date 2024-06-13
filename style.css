@@ -21,6 +21,11 @@ header {
     align-items: center;
     padding: 8px;
 }
+
+.secoes{
+    height: 40px;
+}
+
 .flex {
     display: flex;
     justify-content: space-around;
