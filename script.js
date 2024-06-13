@@ -20,6 +20,17 @@ function formas(){
     } 
 }
 
+function secoes(){
+    const element = document.querySelector('.offcanvas')
+    if(menu.style.display == 'flex'){
+        menu.style.display = 'none'
+        element.classList.remove('offcanvas')
+    }else{
+        menu.style.display = 'flex'
+        element.classList.add('offcanvas')
+    }
+}
+
 $(document).ready(function(){
     $('#barraPesquisa').focus(function(){
         $('#barraPesquisa').css({"outline": "none", "border": "1.2px solid rgb(6, 6, 141)" });
