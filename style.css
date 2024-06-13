@@ -87,10 +87,35 @@ span#cart:hover{
     transition: .5s;
 }
 main {
-    height: 80vh;
+    height: auto;
+    width: 100vw;
+    margin: 0px;
+}
+.produtos {
+    text-align: center;
+}
+.madeira {
+    background-image: url(imagens/madeira2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    color: white;
+}
+.madeira > img{
+    display: inline-block;
+}
+.madeira > p{
+    text-align: center;
 }
 main > div.carnes {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    width: 100vw;
+}
+main > #hortifruti {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 #pagamento{
     width: 90vw;
