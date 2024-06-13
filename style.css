@@ -89,30 +89,8 @@ span#cart:hover{
 main {
     height: 80vh;
 }
-main > div#itens {
-    display: none;
-}
-main > div#itens > ul{
-    background-color: var(--cor4);
-    width: 15vw;
-    padding: 10px;
-}
-main > div#itens > ul > li{
-    list-style: none;
-    margin-bottom: 10px;
-    border-top: 1px solid black;
-    padding: 3px;
-}
-main > div#itens > ul > li#ultimo{
-    list-style: none;
-    margin-bottom: 10px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: 3px;
-}
-main > div#itens > ul > li > a:hover{
-    cursor: pointer;
-    
+main > div.carnes {
+    display: grid;
 }
 #pagamento{
     width: 90vw;
