@@ -46,6 +46,7 @@
 }
 
 @media screen and (min-width: 990px) {
+  
   #img{
     background-image: url(imagens/Inserir\ um\ pouquinho\ de\ texto\ \(2\).png);
     background-size: 100% 100%;
@@ -60,8 +61,8 @@
   }
 
   #img3{
-    margin: auto;
     height: 400px;
-    width: 500px;
+    width: 800px;
+    background-position: center center;
   }
 }
