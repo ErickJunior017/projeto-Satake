@@ -22,11 +22,14 @@ header {
     padding: 8px;
 }
 
-
+#banner{
+    width: 400px;
+    margin-left: 0px;
+}
 
 #img2{
     width: 100%;
-    height: 200px;
+    height: 250px;
     background-image: url(imagens/oferta-junina.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat; 
@@ -37,6 +40,16 @@ header {
     width: 100%;
     height: 250px;
     background-image: url(imagens/Inserir\ um\ pouquinho\ de\ texto.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    transition: 0.2s ease-in-out;
+
+}
+
+#img4{
+    width: 100%;
+    height: 250px;
+    background-image: url(imagens/hortfruit.png);
     background-size: 100% 100%;
     background-repeat: no-repeat; 
     transition: 0.2s ease-in-out;
@@ -124,7 +137,6 @@ span#cart:hover{
 }
 main {
     height: auto;
-    width: 100%;
     margin: 0px;
 }
 .produtos {
