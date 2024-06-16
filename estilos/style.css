@@ -87,32 +87,6 @@ div#logo > img{
     width: 50px;
 }
 
-div#pesquisa{
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-}
-div#pesquisa > input{
-    width: 47vw;
-    height: 23px;
-    padding: 13px;
-    border: 1px solid rgb(35, 35, 203); 
-    border-radius: 4px 0px 0px 4px; 
-    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.214);
-}
-
-div#pesquisa > span#iconePesquisa{
-    height: 27.7px;
-    padding: 1.5px;
-    border: 1px solid rgb(35, 35, 203);
-    border-radius: 0px 4px 4px 0px;
-    background-color: rgb(35, 35, 203);
-    color: rgba(255, 255, 255, 0.908);
-    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.214);
-}
-div#pesquisa > span#iconePesquisa:hover{
-    cursor: pointer;
-}
 img#contato{
     margin-left: 5vw;
     width: 25px;
@@ -129,11 +103,30 @@ span#cart{
     margin-left: 10vw;
     cursor: pointer;
     padding: 2px;
+    position: relative;
 }
 span#cart:hover{
     background-color: var(--cor3);
     border-radius: 10px;
     transition: .5s;
+}
+div#shop {
+    position: relative;
+}
+span#cartItens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: lighter;
+    font-size: small;
+    position: absolute;
+    top: 45%;
+    right: -4%;
+    background-color: rgb(214, 35, 35);
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
 }
 main {
     height: auto;
