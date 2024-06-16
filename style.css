@@ -22,6 +22,19 @@ header {
     padding: 8px;
 }
 
+#banner{
+    padding: 0px;
+}
+
+.carousel-item{
+    margin-right: 0px;
+}
+
+.img{
+    width: 95%;
+    height: 200px;
+}
+
 .secoes{
     height: 40px;
 }
