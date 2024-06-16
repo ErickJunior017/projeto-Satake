@@ -8,31 +8,53 @@
 }
 
 :root{
-    --cor1 : #43B9E0;
-    --cor2 : #10E0D2;
-    --cor3 : #10ACE0;
-    --cor4 : #106AE0;
-    --cor5 : #1028E0;
-    --cor6 : #85ccf8;
+    --cor1 : #f1f523;
+    --cor2 : #f5e023;
+    --cor3 : #f8b21a;
+    --cor4 : #f8ab03;
+    --cor5 : #fad608;
+    --cor6 : #fa3706;
 }
 header {
     flex-wrap: wrap;
-    background-color: var(--cor6);
+    background-color: var(--cor5);
     align-items: center;
     padding: 8px;
 }
 
-#banner{
-    padding: 0px;
+#itens{
+    position: relative;
+    height: 0px;
+    padding-bottom: 50%;
 }
 
-.carousel-item{
-    margin-right: 0px;
-}
-
-.img{
-    width: 95%;
+#img2{
+    width: 100%;
     height: 200px;
+    background-image: url(imagens/oferta-junina.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    transition: 0.2s ease-in-out;
+}
+
+#img3{
+    width: 100%;
+    height: 250px;
+    background-image: url(imagens/Inserir\ um\ pouquinho\ de\ texto.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    transition: 0.2s ease-in-out;
+
+}
+
+#img{
+    width: 100%;
+    height: 250px;
+    background-image: url(imagens/Inserir\ um\ pouquinho\ de\ texto\ \(2\).png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: 0.2s ease-in-out;
+ 
 }
 
 .secoes{
@@ -106,7 +128,7 @@ span#cart:hover{
 }
 main {
     height: auto;
-    width: 100vw;
+    width: 100%;
     margin: 0px;
 }
 .produtos {

@@ -20,28 +20,40 @@
 
             <img src="imagens/icons8-pessoa-24.png" alt="pessoas" id="contato">
             
-            
-            <span class="material-symbols-outlined" id="cart">shopping_cart</span>
             <div class="d-flex">
                 <input type="text" class="rounded-end-0 form-control">
-                <button class="rounded-start-0 btn btn-primary">Pesquisar</button>
+                <button class="rounded-start-0 btn btn-danger">Pesquisar</button>
             </div>
+            <span class="material-symbols-outlined" id="cart">shopping_cart</span>
+            
 
         </div >    
     </header>
-<main>
-            <div class="carousel slide container" id="banner" data-bs-ride
+<main class="container">
+            <div class="carousel slide mt-2 m-auto" id="banner" data-bs-ride
             ="carousel">
                 <div class="carousel-indicators">
                     <button data-bs-target="#banner" data-bs-slide-to="0" class="active"></button>
-                    <button data-bs-target="#banner" data-bs-slide-to="1"></butto>
+                    <button data-bs-target="#banner" data-bs-slide-to="1"></button>
+                    <button data-bs-target="#banner" data-bs-slide-to="2"></button>
+                    <button data-bs-target="#banner" data-bs-slide-to="3"></button>
+                    <button data-bs-target="#banner" data-bs-slide-to="4"></button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="imagens/oferta1.jpg" alt="" class="img">
+                <div class="carousel-inner container-fluid m-auto shadow p-0 rounded-3" id="itens">
+                    <div class="carousel-item active" id="img">
+                        
                     </div>
-                    <div></div>
+                    <div class="carousel-item " id="img2">
+                        
+                    </div>
+                    <div class="carousel-item " id="img3">
+                        
+                    </div>
                 </div>
+                <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#banner">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <button class="carousel-control-prev " data-bs-slide="prev" data-bs-target="#banner"><span class="carousel-control-prev-icon"></span></button>
             </div>
             <h1 class="produtos">Açougue</h1>
             <div class="container carnes">
