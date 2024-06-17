@@ -79,12 +79,11 @@ header {
 span#menu:hover {
     cursor: pointer;
 }
-div#logo{
-    display: inline;
-    width: 50px;
-}
-div#logo > img{
-    width: 50px;
+.logo{
+    width: 100px;
+    height: 80px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
+    background-color: #fa3706;
 }
 
 img#contato{
@@ -136,6 +135,7 @@ main {
 .h1_produtos {
     text-align: center;
     margin: 20px 0px 0px 0px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.151);
 }
 
 .produtos{
