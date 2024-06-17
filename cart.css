@@ -1,0 +1,33 @@
+.cartTab {
+  width: 400px;
+  background-color: #353432;
+  color: #eee;
+  position: fixed;
+  inset: 0 -400px 0 auto;
+  z-index: 100;
+  display: grid;
+  grid-template-rows: 70px 1fr 70px;
+  transition: .5s;
+}
+body.showCart .cartTab {
+  inset: 0 0 0 auto;
+}
+.cartTab h1{
+  padding: 20px;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 300;
+}
+.cartTab .button{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.cartTab .button button{
+  background-color: #E8BC0E;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+.cartTab .button .closeCart{
+  background-color: #eee;
+}
