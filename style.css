@@ -130,6 +130,7 @@ span#cartItens {
     border-radius: 50%;
     cursor: pointer;
 }
+
 main {
     height: auto;
     margin: 0px;
@@ -138,6 +139,10 @@ main {
     text-align: center;
     margin: 20px 0px 0px 0px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.151);
+}
+
+.p_preco{
+    font: normal bolder 1.2em Arial, sans-serif;
 }
 
 .produtos{
@@ -150,6 +155,7 @@ main > div.container_product {
     gap: 5px;
 
 }
+
 
 .hort{
     background-size: 100% 100%;
@@ -171,6 +177,14 @@ main > div.container_product {
     background-repeat: no-repeat;
     height: 150px;
     width: 60%;
+}
+
+.bebidas{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 60%;
+    translate: 10px 0px;
 }
 
 .borda{
