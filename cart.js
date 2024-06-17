@@ -15,6 +15,217 @@ $(document).ready(function(){
       "price": 28,
       "image": "produtos/alcatra.png"
     },
+    {
+      "id": 2,
+      "name": "Ponta de peito bovina",
+      "price": 30,
+      "image": "produtos/pontadepeito.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 4,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 5,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 6,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 7,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 8,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 9,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 10,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 11,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 12,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 13,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 14,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 15,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 16,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 17,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 18,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 19,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 20,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 21,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 22,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 23,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 24,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 25,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 26,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 27,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 28,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 29,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 30,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 31,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 32,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 33,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 34,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 35,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    },
+    {
+      "id": 36,
+      "name": "Alcatra com maminha",
+      "price": 28,
+      "image": "produtos/alcatra.png"
+    }
+
   ];
 
   let carts = [];
