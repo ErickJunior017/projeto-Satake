@@ -113,99 +113,99 @@ $(document).ready(function(){
     },
     {
       "id": 18,
-      "name": "Alcatra com maminha",
+      "name": "Pão Frances Unidade",
       "price": 28,
-      "image": "produtos/alcatra.png"
+      "image": "produtos/paofrances.webp"
     },
     {
       "id": 19,
-      "name": "Alcatra com maminha",
+      "name": "Pão de Queijo Unidade",
       "price": 28,
-      "image": "produtos/alcatra.png"
+      "image": "produtos/paodequijo.webp"
     },
     {
       "id": 20,
-      "name": "Alcatra com maminha",
+      "name": "Pão de Forma Plus Vita 480g",
       "price": 28,
-      "image": "produtos/alcatra.png"
+      "image": "produtos/paodeforma.webp"
     },
     {
       "id": 21,
-      "name": "Alcatra com maminha",
+      "name": "Donut Ring Recheio de Chocolate",
       "price": 28,
-      "image": "produtos/alcatra.png"
+      "image": "produtos/donutChocolate.webp"
     },
     {
       "id": 22,
-      "name": "Alcatra com maminha",
+      "name": "Sonho de Creme",
       "price": 28,
-      "image": "produtos/alcatra.png"
+      "image": "produtos/sonhodeCreme.webp"
     },
     {
       "id": 23,
-      "name": "Alcatra com maminha",
+      "name": "Donut Ring Frutas Vermelhas 75g",
       "price": 28,
-      "image": "produtos/alcatra.png"
+      "image": "produtos/donutMorango.webp"
     },
     {
       "id": 24,
-      "name": "Alcatra com maminha",
+      "name": "Muffin Red Velvet Melhor Bocado 80g",
       "price": 28,
-      "image": "produtos/alcatra.png"
+      "image": "produtos/muffin.webp"
     },
     {
       "id": 25,
-      "name": "Alcatra com maminha",
+      "name": "Bolo de Laranja 1Kg",
       "price": 28,
-      "image": "produtos/alcatra.png"
+      "image": "produtos/abolo_de_laranja.webp"
     },
     {
       "id": 26,
-      "name": "Alcatra com maminha",
+      "name": "Bolinho Ana Maria de Chocolate 70g",
       "price": 28,
-      "image": "produtos/alcatra.png"
+      "image": "produtos/bolinhodeChocoloteDonaMaria.webp"
     },
     {
       "id": 27,
-      "name": "Alcatra com maminha",
+      "name": "Água Miner Crystal sem Gás 500ml",
       "price": 28,
-      "image": "produtos/alcatra.png"
+      "image": "produtos/agua-mineral-crystal-sem-gas-500ml.webp"
     },
     {
       "id": 28,
-      "name": "Alcatra com maminha",
+      "name": "Coca Cola sem Açúcar 250ml",
       "price": 28,
-      "image": "produtos/alcatra.png"
+      "image": "produtos/coca250mmlsemaçucar.webp"
     },
     {
       "id": 29,
-      "name": "Alcatra com maminha",
+      "name": "Pepsi 350ml",
       "price": 28,
-      "image": "produtos/alcatra.png"
+      "image": "produtos/pepsi350ml.webp"
     },
     {
       "id": 30,
-      "name": "Alcatra com maminha",
+      "name": "Água Miner Crystal com Gás 1,5l",
       "price": 28,
-      "image": "produtos/alcatra.png"
+      "image": "produtos/agua-mineral-crystal-com-gas-1-5l.webp"
     },
     {
       "id": 31,
-      "name": "Alcatra com maminha",
+      "name": "Cerveja Brahma Duplo Malte Lata 350Ml",
       "price": 28,
-      "image": "produtos/alcatra.png"
+      "image": "produtos/cerv-brahma-duplo-malte-lt-sleek-350ml.webp"
     },
     {
       "id": 32,
-      "name": "Alcatra com maminha",
+      "name": "Cerveja Heineken Long Neck 330Ml",
       "price": 28,
-      "image": "produtos/alcatra.png"
+      "image": "produtos/cerveja-heineken-ln-330ml.webp"
     },
     {
       "id": 33,
-      "name": "Alcatra com maminha",
+      "name": "Energético Monster Energy 473ml",
       "price": 28,
-      "image": "produtos/alcatra.png"
+      "image": "produtos/energetico-monster-energy-473ml.webp"
     },
     {
       "id": 34,
@@ -215,15 +215,15 @@ $(document).ready(function(){
     },
     {
       "id": 35,
-      "name": "Alcatra com maminha",
+      "name": "Refrigerante Coca-Cola 2L",
       "price": 28,
-      "image": "produtos/alcatra.png"
+      "image": "produtos/refrig-coca-cola-pet-2l.webp"
     },
     {
       "id": 36,
-      "name": "Alcatra com maminha",
+      "name": "Chá Matte Leão 24G Natural",
       "price": 28,
-      "image": "produtos/alcatra.png"
+      "image": "produtos/cha-mate-leao-24g-natural.webp"
     }
 
   ];
