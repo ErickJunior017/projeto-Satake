@@ -23,93 +23,93 @@ $(document).ready(function(){
     },
     {
       "id": 3,
-      "name": "Alcatra com maminha",
-      "price": 28,
-      "image": "produtos/alcatra.png"
+      "name": "Lagarto bovino",
+      "price": 25,
+      "image": "produtos/lagartobovino.jpeg"
     },
     {
       "id": 4,
-      "name": "Alcatra com maminha",
-      "price": 28,
-      "image": "produtos/alcatra.png"
+      "name": "Picanha",
+      "price": 85,
+      "image": "produtos/picanha.jpeg"
     },
     {
       "id": 5,
-      "name": "Alcatra com maminha",
-      "price": 28,
-      "image": "produtos/alcatra.png"
+      "name": "Bisteca de contra file",
+      "price": 40,
+      "image": "produtos/bistecadocontrafile.jpeg"
     },
     {
       "id": 6,
-      "name": "Alcatra com maminha",
-      "price": 28,
-      "image": "produtos/alcatra.png"
+      "name": "Linguiça toscana Frimesa",
+      "price": 20,
+      "image": "produtos/linguiçatoscanaFrimesaKG.jpeg"
     },
     {
       "id": 7,
-      "name": "Alcatra com maminha",
-      "price": 28,
-      "image": "produtos/alcatra.png"
+      "name": "Costelinha suína",
+      "price": 20,
+      "image": "produtos/costelinhasuínaKG.jpeg"
     },
     {
       "id": 8,
-      "name": "Alcatra com maminha",
-      "price": 28,
-      "image": "produtos/alcatra.png"
+      "name": "Toucinho suíno",
+      "price": 15,
+      "image": "produtos/toicinho.jpeg"
     },
     {
       "id": 9,
-      "name": "Alcatra com maminha",
-      "price": 28,
-      "image": "produtos/alcatra.png"
+      "name": "Coxa com Sobrecoxa",
+      "price": 22,
+      "image": "produtos/coxacomsobre.jpeg"
     },
     {
       "id": 10,
-      "name": "Alcatra com maminha",
-      "price": 28,
-      "image": "produtos/alcatra.png"
+      "name": "Cebola Nacional",
+      "price": 3,25,
+      "image": "produtos/cebola-nacional-unidade.webp"
     },
     {
       "id": 11,
-      "name": "Alcatra com maminha",
-      "price": 28,
-      "image": "produtos/alcatra.png"
+      "name": "Limão Tahity",
+      "price": 0.80,
+      "image": "produtos/limao-tahity.webp"
     },
     {
       "id": 12,
-      "name": "Alcatra com maminha",
-      "price": 28,
-      "image": "produtos/alcatra.png"
+      "name": "Cenoura",
+      "price": 2.08,
+      "image": "produtos/cenoura.webp"
     },
     {
       "id": 13,
-      "name": "Alcatra com maminha",
-      "price": 28,
-      "image": "produtos/alcatra.png"
+      "name": "Laranja Pera",
+      "price": 2,
+      "image": "produtos/laranja-pera-unidade.webp"
     },
     {
       "id": 14,
-      "name": "Alcatra com maminha",
-      "price": 28,
-      "image": "produtos/alcatra.png"
+      "name": "Batata Doce",
+      "price": 1.74,
+      "image": "produtos/batata-doce.webp"
     },
     {
       "id": 15,
-      "name": "Alcatra com maminha",
-      "price": 28,
-      "image": "produtos/alcatra.png"
+      "name": "Maçã Gala",
+      "price": 3.42,
+      "image": "produtos/maça.webp"
     },
     {
       "id": 16,
-      "name": "Alcatra com maminha",
-      "price": 28,
-      "image": "produtos/alcatra.png"
+      "name": "Manga Palmer",
+      "price": 5.28,
+      "image": "produtos/manga-palmer-1-unidade.webp"
     },
     {
       "id": 17,
-      "name": "Alcatra com maminha",
-      "price": 28,
-      "image": "produtos/alcatra.png"
+      "name": "Alface Americana",
+      "price": 15,
+      "image": "produtos/alface-americana-un.webp"
     },
     {
       "id": 18,
