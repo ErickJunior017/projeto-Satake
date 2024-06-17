@@ -31,3 +31,35 @@ body.showCart .cartTab {
 .cartTab .button .closeCart{
   background-color: #eee;
 }
+.item img{
+  width: 100%;
+}
+.item {
+  display: grid;
+  grid-template-columns: 70px 150px 50px 1fr;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+}
+.listCart .quantity span{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #eee;
+  color: #555;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.listCart .quantity span:nth-child(2){
+  background-color: transparent;
+  color: #eee;
+}
+.listCart .item:nth-child(even){
+  background-color: #eee1;
+}
+.listCart{
+  overflow: auto;
+}
+.listCart::-webkit-scrollbar{
+  width: 0;
+}
