@@ -148,13 +148,19 @@ main {
     color: white;
 }
 
-main > div.container_carne {
+main > div.container_product {
     display: grid;
     grid-template-columns: 1fr;
     gap: 5px;
 
 }
 
+.hort{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 50%;
+}
 
 .carnes{
     background-size: 100% 100%;
@@ -162,11 +168,7 @@ main > div.container_carne {
     height: 290px;
     width: 60%;
 }
-main > #hortifruti {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
-}
+
 #pagamento{
     width: 90vw;
     padding: 0px 10px;
