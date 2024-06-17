@@ -79,40 +79,41 @@ header {
 span#menu:hover {
     cursor: pointer;
 }
-div#logo{
-    display: inline;
-    width: 50px;
-}
-div#logo > img{
-    width: 50px;
+.logo{
+    width: 70px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
+    background-color: #fa3706;
+    background-size: 100% 100%;
+    background-image: url(imagens/satake.png);
 }
 
-img#contato{
-    margin-left: 5vw;
-    width: 25px;
-    height: 26px;
-    display: inline;
-}
-img#contato:hover{
-    background-color: var(--cor3);
-    border-radius: 10px;
-    cursor: pointer;
-    transition: .5s;
-}
+
 span#cart{
-    margin-left: 10vw;
     cursor: pointer;
     padding: 2px;
     position: relative;
 }
-span#cart:hover{
-    background-color: var(--cor3);
-    border-radius: 10px;
-    transition: .5s;
-}
+
 div#shop {
     position: relative;
+    margin-top: 5px;
 }
+
+@font-face {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v192/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOej.woff2) format('woff2');
+  }
+  
+  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-size: 34px;
+    line-height: 1;
+    display: inline-block;
+  }
+  
 span#cartItens {
     display: flex;
     justify-content: center;
@@ -122,13 +123,14 @@ span#cartItens {
     font-size: small;
     position: absolute;
     top: 45%;
-    right: -4%;
+    right: -1%;
     background-color: rgb(214, 35, 35);
     width: 17px;
     height: 17px;
     border-radius: 50%;
     cursor: pointer;
 }
+
 main {
     height: auto;
     margin: 0px;
@@ -136,20 +138,18 @@ main {
 .h1_produtos {
     text-align: center;
     margin: 20px 0px 0px 0px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.151);
+}
+
+.p_preco{
+    font: normal bolder 1.2em Arial, sans-serif;
 }
 
 .produtos{
     background-color: rgba(231, 231, 231, 0.952);
 }
-.madeira {
-    background-image: url(imagens/madeira2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 30vh;
-    color: white;
-}
 
-main > div.container_carne {
+main > div.container_product {
     display: grid;
     grid-template-columns: 1fr;
     gap: 5px;
@@ -157,17 +157,40 @@ main > div.container_carne {
 }
 
 
+.hort{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 50%;
+}
+
 .carnes{
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 290px;
+    height: 150px;
+    width: 60%;
+    
+}
+
+.padaria{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
     width: 60%;
 }
-main > #hortifruti {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
+
+.bebidas{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 60%;
+    translate: 10px 0px;
 }
+
+.borda{
+    border: 1px solid #bfbfbf;
+}
+
 #pagamento{
     width: 90vw;
     padding: 0px 10px;
