@@ -56,7 +56,12 @@
     
   }
    
-  
+  main > div.container_carne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+
+}
 }
 
 @media screen and (min-width: 990px) {
@@ -87,5 +92,15 @@
    
     height: 400px;
     
+  }
+  main > div.container_carne {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+
+  }
+
+  .carnes{
+    height: 200px;
   }
 }

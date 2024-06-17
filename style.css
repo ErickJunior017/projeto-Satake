@@ -139,9 +139,13 @@ main {
     height: auto;
     margin: 0px;
 }
-.produtos {
+.h1_produtos {
     text-align: center;
-    margin: 20px 0px 0px 0px
+    margin: 20px 0px 0px 0px;
+}
+
+.produtos{
+    background-color: rgba(231, 231, 231, 0.952);
 }
 .madeira {
     background-image: url(imagens/madeira2.jpg);
@@ -150,20 +154,20 @@ main {
     height: 30vh;
     color: white;
 }
-.last{
-    margin-bottom: 20px;
-}
-.madeira > img{
-    display: inline-block;
-}
-.madeira > p{
-    text-align: center;
-}
-main > div.carnes {
+
+main > div.container_carne {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 5px;
-    width: 100vw;
+
+}
+
+
+.carnes{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 290px;
+    width: 60%;
 }
 main > #hortifruti {
     display: grid;
