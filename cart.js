@@ -6,7 +6,9 @@ $(document).ready(function(){
   let main = $('main');
   let iconCartSpan = $('#cartItens');
   let listCartHTML = $('.listCart');
-  // let listProductHTML = $('.')
+
+  let pagamento = $('.checkOut');
+  let closePay = $('.closePay');
 
   let listProducts = [
     {
@@ -232,6 +234,9 @@ $(document).ready(function(){
 
   iconCart.click(function(){
     body.toggleClass('showCart');
+    if(body.hasClass('showPay')){
+      body.toggleClass('showPay');
+    }
   });
 
   closeCart.click(function(){
@@ -335,4 +340,12 @@ $(document).ready(function(){
     }
   }
   initApp();
+  pagamento.click(function(){
+    body.toggleClass('showPay');
+    body.toggleClass('showCart');
+  })
+  closePay.click(function(){
+    body.toggleClass('showPay');
+  })
 });
+
