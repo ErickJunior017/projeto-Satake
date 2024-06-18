@@ -56,7 +56,7 @@
     
   }
    
-  main > div.container_carne {
+  main > div.container_product {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5px;

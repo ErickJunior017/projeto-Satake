@@ -66,7 +66,7 @@ $(document).ready(function(){
     {
       "id": 10,
       "name": "Cebola Nacional",
-      "price": 3,25,
+      "price": 3.25,
       "image": "produtos/cebola-nacional-unidade.webp"
     },
     {
