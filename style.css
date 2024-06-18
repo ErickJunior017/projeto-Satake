@@ -20,6 +20,10 @@ header {
     background-color: var(--cor5);
     align-items: center;
     padding: 8px;
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+    top: 0;
 }
 
 #banner{
@@ -98,6 +102,7 @@ span#cart{
 div#shop {
     position: relative;
     margin-top: 5px;
+    right: 20px;
 }
 
 @font-face {
@@ -133,7 +138,8 @@ span#cartItens {
 
 main {
     height: auto;
-    margin: 0px;
+    position: relative;
+    top: 80px;
 }
 .h1_produtos {
     text-align: center;
@@ -259,6 +265,11 @@ main > div.container_product {
 
     border-radius: 10px;
     cursor: pointer;
+}
+
+footer{
+    position: relative;
+    top: 100px;
 }
 
 footer #endereco{
