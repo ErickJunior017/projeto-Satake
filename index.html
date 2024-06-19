@@ -17,13 +17,12 @@
     <header class=" w-100">
         
         <div class="d-flex justify-content-around">  
-             <span class="logo rounded" alt="logo">
-             </span>   
-            
-            
-            <div class="d-flex w-50 ">
-                <input type="text" class="rounded-end-0 form-control h-100 w-100">
-                <button class="rounded-start-0 btn btn-danger h-100">Pesquisar</button>
+               
+            <p class="text-light" style="font-size: 1.5em; font-family: fantasy; translate: 0px 2px;"><span style="font-family: fantasy; font-size: 1.4em; color: rgb(92, 1, 92);">S</span>atake</p>
+
+            <div class="d-flex w-50 mt-2">
+                <input type="text" class="rounded-end-0 form-control rounded-start-4 h-75 w-100 border-end-0 shadow" placeholder="Pesquisar...">
+                <button class="rounded-start-0 rounded-end-4 search border-start-0 border h-75 "><img src="imagens/searchmagnifierinterfacesymbol1_79893.png"></button>
             </div>
             <div id="shop">
                 <span class="material-symbols-outlined" id="cart">shopping_cart</span>
@@ -34,7 +33,7 @@
         </div >    
     </header>
 <main class="container w-75">
-            <div class="carousel slide mt-2 m-auto" id="banner" data-bs-ride
+            <div class="carousel slide mt-3 m-auto" id="banner" data-bs-ride
             ="carousel">
                 <div class="carousel-indicators">
                     <button data-bs-target="#banner" data-bs-slide-to="0" class="active"></button>
@@ -95,14 +94,14 @@
                     </div>
                 </div>
 
-                <div class="shadow rounded-2 bg-white borda d-flex align-content-between flex-column  mt-3">
+                <div class="shadow rounded-2 bg-white borda d-flex align-content-between flex-column mt-3">
                     <div class="carnes m-auto" style="background-image: url(produtos/lagartobovino.jpeg);">
 
                     </div>
                     <div class="mb-0 text-center p-3 rounded-bottom-2 text-dark" data-id="3">
                         <p>Lagarto bovino KG</p>
                         <p class="p_preco ">R$25,00</p>
-                        <button class="btn btn-danger d-block mt-3 m-auto addCart">Adicionar no Carrinho</button>
+                        <button class="btn btn-danger d-bl m-auto addCart">Adicionar no Carrinho</button>
                     </div>
                 </div>
 
@@ -173,7 +172,7 @@
                 <h1 class="h1_produtos">HORTIFRUTI</h1>
                 <div class="container-fluid p-3 rounded container_product shadow">
 
-                    <div class="shadow rounded bg-white borda d-flex align-content-between flex-column ">
+                    <div class="shadow rounded bg-white borda d-flex align-content-between flex-column container-hort">
                         <div class="hort m-auto" style="background-image: url(produtos/cebola-nacional-unidade.webp);">
                         </div>
                         <div class="mb-0 text-center p-3 rounded-bottom-2 text-dark" data-id="10">
@@ -183,7 +182,7 @@
                         </div>
                     </div>
     
-                    <div class="shadow rounded bg-white borda d-flex align-content-between flex-column ">
+                    <div class="shadow rounded bg-white borda d-flex align-content-between flex-column container-hort">
                         <div class="hort m-auto" style="background-image: url(produtos/limao-tahity.webp);">
     
                         </div>
@@ -194,7 +193,7 @@
                         </div>
                     </div>
     
-                    <div class="shadow rounded bg-white borda d-flex align-content-between flex-column  mt-3">
+                    <div class="shadow rounded bg-white borda d-flex align-content-between flex-column container-hort mt-3">
                         <div class="hort m-auto" style="background-image: url(produtos/cenoura.webp);">
     
                         </div>
@@ -205,7 +204,7 @@
                         </div>
                     </div>
     
-                    <div class="shadow rounded bg-white borda d-flex align-content-between flex-column  mt-3">
+                    <div class="shadow rounded bg-white borda d-flex align-content-between flex-column container-hort mt-3">
                         <div class="hort m-auto" style="background-image: url(produtos/laranja-pera-unidade.webp);">
                         </div>
                         <div class="mb-0 text-center p-3 rounded-bottom-2 text-dark" data-id="13">
@@ -215,17 +214,17 @@
                         </div>
                     </div>
     
-                    <div class="shadow rounded bg-white borda d-flex align-content-between flex-column  mt-3">
-                        <div class="hort m-auto" style="background-image: url(produtos/batata-doce.webp);">
+                    <div class="shadow rounded bg-white borda d-flex align-content-between flex-column container-hort mt-3">
+                        <div class="hort m-auto w" style="background-image: url(produtos/batata-doce.webp);">
                         </div>
-                        <div class="mb-0 text-center p-3 rounded-bottom-2 text-dark" data-id="14">
+                        <div class="mb-0 text-center p-3 rounded-bottom-2 text-dark " data-id="14">
                             <p>Batata Doce Unidade</p>
                             <p class="p_preco">R$ 1,74</p>
                             <button class="btn btn-danger d-block mt-3 m-auto addCart">Adicionar no Carrinho</button>
                         </div>
                     </div>
     
-                    <div class="shadow rounded bg-white borda d-flex align-content-between flex-column  mt-3">
+                    <div class="shadow rounded bg-white borda d-flex align-content-between flex-column container-hort mt-3">
                         <div class="hort m-auto" style="background-image: url(produtos/maça.webp);">
                         </div>
                         <div class="mb-0 text-center p-3 rounded-bottom-2 text-dark" data-id="15">
@@ -235,7 +234,7 @@
                         </div>
                     </div>
     
-                    <div class="shadow rounded bg-white borda d-flex align-content-between flex-column  mt-3">
+                    <div class="shadow rounded bg-white borda d-flex align-content-between flex-column container-hort mt-3">
                         <div class="hort m-auto" style="background-image: url(produtos/manga-palmer-1-unidade.webp);">
                         </div>
                         <div class="mb-0 text-center p-3 rounded-bottom-2 text-dark" data-id="16">
@@ -245,7 +244,7 @@
                         </div>
                     </div>
     
-                    <div class="shadow rounded bg-white borda d-flex align-content-between flex-column  mt-3">
+                    <div class="shadow rounded bg-white borda d-flex align-content-between flex-column container-hort mt-3">
                         <div class="hort m-auto" style="background-image: url(produtos/alface-americana-un.webp); background-size: 95% 90%;">
                         </div>
                         <div class="text-center p-3 rounded-bottom-2 text-dark" data-id="17">
@@ -255,7 +254,7 @@
                         </div>
                     </div>
     
-                    <div class="shadow rounded bg-white borda d-flex align-content-between flex-column  mt-3">
+                    <div class="shadow rounded bg-white borda d-flex align-content-between flex-column container-hort mt-3">
                         <div class="hort m-auto" style="background-image: url(produtos/banana.webp);">
                         </div>
                         <div class="mb-0 text-center p-3 rounded-bottom-2 text-dark" data-id="18">
@@ -291,7 +290,7 @@
                     </div>
                 </div>
 
-                <div class="shadow rounded-2 bg-white borda d-flex align-content-between flex-column  mt-3">
+                <div class="shadow rounded-2 bg-white borda d-flex align-content-between flex-column mt-3">
                     <div class="bebidas m-auto" style="background-image: url(produtos/paodeforma.webp);">
 
                     </div>
@@ -390,7 +389,7 @@
                     </div>
                 </div>
 
-                <div class="shadow rounded-2 bg-white borda d-flex align-content-between flex-column   mt-3">
+                <div class="shadow rounded-2 bg-white borda d-flex align-content-between flex-column mt-3">
                     <div class="bebidas m-auto" style="background-image: url(produtos/pepsi350ml.webp);">
 
                     </div>
@@ -432,7 +431,7 @@
                     </div>
                 </div>
 
-                <div class="shadow rounded-2 bg-white borda d-flex align-content-between flex-column   mt-3">
+                <div class="shadow rounded-2 bg-white borda d-flex align-content-between flex-column  mt-3">
                     <div class="bebidas m-auto" style="background-image: url(produtos/energetico-monster-energy-473ml.webp);">
                     </div>
                     <div class="mb-0 text-center p-3 rounded-bottom-2 text-dark" data-id="34">
@@ -514,13 +513,11 @@
             <button class="checkOut">Pagamento</button>
         </div>
     </div>
-<<<<<<< HEAD
     <script src="script.js"></script>
-=======
+
     <div class="rounded shadow pay">
         <h1>Pagamento</h1>
         <button class="btn btn-close text-dark closePay"></button>
     </div>
->>>>>>> b87bc56821d42c99d30321052b5dc776cd634bdd
 </body>
 </html>

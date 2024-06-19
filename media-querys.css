@@ -104,3 +104,23 @@
     height: 200px;
   }
 }
+
+@media screen and (min-width: 653px) and (max-width: 758px){
+ .padaria, .bebidas{
+    translate: 20px 0px;
+}
+
+.bebidas_container{
+  height: 500px;
+}
+
+.carnes{
+  width: 50%;
+}
+
+.hort{
+  width: 30%;
+  height: 120px;
+}
+
+}
