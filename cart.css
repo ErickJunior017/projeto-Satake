@@ -29,6 +29,7 @@ body.showCart .cartTab {
   font-weight: 500;
   cursor: pointer;
 }
+
 .cartTab .button .closeCart{
   background-color: #eee;
 }
