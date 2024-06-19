@@ -122,6 +122,7 @@ div#shop {
     position: relative;
     margin-top: 5px;
     right: 20px;
+    top: 5px;
 }
 
 @font-face {
