@@ -349,9 +349,11 @@ $(document).ready(function(){
   pagamento.click(function(){
     body.toggleClass('showPay');
     body.toggleClass('showCart');
+    body.toggleClass('escurecer');
   })
   closePay.click(function(){
     body.toggleClass('showPay');
+    body.toggleClass('escurecer');
   })
 });
 
