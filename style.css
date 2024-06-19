@@ -34,16 +34,9 @@ header {
     padding-left: 5px;
 }
 
-.search:hover{
-    background-color: rgb(197, 197, 197);
-    transition: 0.2s ease-in-out;    
-}
-
 .search > img{
     height: 20px;
 }
-
-
 
 #banner{
     width: 400px;
