@@ -6,7 +6,7 @@ $(document).ready(function(){
   let main = $('main');
   let iconCartSpan = $('#cartItens');
   let listCartHTML = $('.listCart');
-  let totalHTML = $('.totalPrice');
+  let totalHTML = $('.totalTotalPrice');
 
   let pagamento = $('.checkOut');
   let closePay = $('.closePay');
@@ -116,105 +116,105 @@ $(document).ready(function(){
     },
     {
       "id": 18,
-      "name": "Pão Frances Unidade",
-      "price": 2.00,
-      "image": "produtos/paofrances.webp"
+      "name": "Banana Prata",
+      "price": 2.20,
+      "image": "produtos/banana.webp"
     },
     {
       "id": 19,
-      "name": "Pão de Queijo Unidade",
-      "price": 28.00,
-      "image": "produtos/paodequijo.webp"
+      "name": "Pão Frances Unidade",
+      "price": 1.37,
+      "image": "produtos/paofrances.webp"
     },
     {
       "id": 20,
-      "name": "Pão de Forma Plus Vita 480g",
-      "price": 28.00,
-      "image": "produtos/paodeforma.webp"
+      "name": "Pão de Queijo Unidade",
+      "price": 2.04,
+      "image": "produtos/paodequijo.webp"
     },
     {
       "id": 21,
-      "name": "Donut Ring Recheio de Chocolate",
-      "price": 28.00,
-      "image": "produtos/donutChocolate.webp"
+      "name": "Pão de Forma Plus Vita 480g",
+      "price": 9.99,
+      "image": "produtos/paodeforma.webp"
     },
     {
       "id": 22,
-      "name": "Sonho de Creme",
-      "price": 28.00,
-      "image": "produtos/sonhodeCreme.webp"
+      "name": "Donut Ring Recheio de Chocolate",
+      "price": 10.99,
+      "image": "produtos/donutChocolate.webp"
     },
     {
       "id": 23,
-      "name": "Donut Ring Frutas Vermelhas 75g",
-      "price": 28,
-      "image": "produtos/donutMorango.webp"
+      "name": "Sonho de Creme",
+      "price": 7.19,
+      "image": "produtos/sonhodeCreme.webp"
     },
     {
       "id": 24,
-      "name": "Muffin Red Velvet Melhor Bocado 80g",
-      "price": 28.00,
-      "image": "produtos/muffin.webp"
+      "name": "Donut Ring Frutas Vermelhas 75g",
+      "price": 10.99,
+      "image": "produtos/donutMorango.webp"
     },
     {
       "id": 25,
-      "name": "Bolo de Laranja 1Kg",
-      "price": 28.00,
-      "image": "produtos/abolo_de_laranja.webp"
+      "name": "Muffin Red Velvet Melhor Bocado 80g",
+      "price": 9.99,
+      "image": "produtos/muffin.webp"
     },
     {
       "id": 26,
-      "name": "Bolinho Ana Maria de Chocolate 70g",
-      "price": 28.00,
-      "image": "produtos/bolinhodeChocoloteDonaMaria.webp"
+      "name": "Bolo de Laranja 1Kg",
+      "price": 26.45,
+      "image": "produtos/abolo_de_laranja.webp"
     },
     {
       "id": 27,
-      "name": "",
-      "price": 28.00,
-      "image": "produtos/agua-mineral-crystal-sem-gas-500ml.webp"
+      "name": "Bolinho Ana Maria de Chocolate 70g",
+      "price": 3.49,
+      "image": "produtos/bolinhodeChocoloteDonaMaria.webp"
     },
     {
       "id": 28,
       "name": "Água Miner Crystal sem Gás 500ml",
       "price": 1.79,
-      "image": "produtos/coca250mmlsemaçucar.webp"
+      "image": "produtos/agua-mineral-crystal-sem-gas-500ml.webp"
     },
     {
       "id": 29,
       "name": "Coca Cola sem Açúcar 250ml",
       "price": 2.49,
-      "image": "produtos/pepsi350ml.webp"
+      "image": "produtos/coca250mmlsemaçucar.webp"
     },
     {
       "id": 30,
       "name": "Pepsi 350ml",
       "price": 2.99,
-      "image": "produtos/agua-mineral-crystal-com-gas-1-5l.webp"
+      "image": "produtos/pepsi350ml.webp"
     },
     {
       "id": 31,
       "name": "Água Miner Crystal com Gás 1,5l",
       "price": 3.99,
-      "image": "produtos/cerv-brahma-duplo-malte-lt-sleek-350ml.webp"
+      "image": "produtos/agua-mineral-crystal-com-gas-1-5l.webp"
     },
     {
       "id": 32,
       "name": "Cerveja Brahma Duplo Malte Lata 350Ml",
       "price": 4.29,
-      "image": "produtos/cerveja-heineken-ln-330ml.webp"
+      "image": "produtos/cerv-brahma-duplo-malte-lt-sleek-350ml.webp"
     },
     {
       "id": 33,
       "name": "Cerveja Heineken Long Neck 330Ml",
       "price": 6.49,
-      "image": "produtos/energetico-monster-energy-473ml.webp"
+      "image": "produtos/cerveja-heineken-ln-330ml.webp"
     },
     {
       "id": 34,
       "name": "Energético Monster Energy 473ml",
       "price": 8.79,
-      "image": "produtos/alcatra.png"
+      "image": "produtos/energetico-monster-energy-473ml.webp"
     },
     {
       "id": 35,

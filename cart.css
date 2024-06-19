@@ -13,10 +13,11 @@ body.showCart .cartTab {
   inset: 0 0 0 auto;
 }
 .cartTab h1{
+  text-align: center;
   padding: 20px;
   margin: 0;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 .cartTab .button{
   display: grid;
@@ -40,6 +41,7 @@ body.showCart .cartTab {
   gap: 10px;
   text-align: center;
   align-items: center;
+  padding: 7px;
 }
 .listCart .quantity span{
   display: inline-block;
@@ -54,7 +56,7 @@ body.showCart .cartTab {
   background-color: transparent;
   color: #eee;
 }
-.listCart .item:nth-child(even){
+.listCart .item:nth-child(odd){
   background-color: #eee1;
 }
 .listCart{
@@ -91,4 +93,13 @@ body.showCart .cartTab {
 body.showPay .pay{
   opacity: 1;
   z-index: 300;
+}
+.totalPrice {
+  /* background-color: #353432; */
+  border: none;
+  font-weight: 500;
+  font-size: 1em;
+}
+.totalTotalPrice {
+  font-size: 1.8em;
 }
