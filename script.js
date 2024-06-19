@@ -39,4 +39,3 @@ $(document).ready(function(){
         $('#barraPesquisa').css({"outline": "none", "border": "1px solid rgb(35, 35, 203)" });
     });
 });
-
