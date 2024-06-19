@@ -12,19 +12,38 @@
     --cor2 : #f5e023;
     --cor3 : #f8b21a;
     --cor4 : #f8ab03;
-    --cor5 : #fad608;
+    --cor5 : #c108fa;
     --cor6 : #fa3706;
 }
 header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
     flex-wrap: wrap;
-    background-color: var(--cor5);
     align-items: center;
-    padding: 8px;
+    background-image: linear-gradient(135deg, rgb(207, 2, 207), #b504eb, #d23eff);
+    padding: 10px;
     position: fixed;
     width: 100vw;
-    z-index: 2;
+    z-index: 3;
     top: 0;
 }
+
+.search{
+    border: none;
+    background-color: white;
+    padding-right: 10px;
+    
+}
+
+.search:hover{
+    background-color: rgb(197, 197, 197);
+    transition: 0.5s ease-in-out;    
+}
+
+.search > img{
+    height: 20px;
+}
+
+
 
 #banner{
     width: 400px;
@@ -162,13 +181,18 @@ main > div.container_product {
 
 }
 
-
+.container-hort{
+    height: 400px;
+}
 .hort{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 150px;
-    min-width: 40%;
-    max-width: 40%;
+    width: 50%;
+}
+
+.w{
+    width: 180px;
 }
 
 .carnes{
@@ -180,18 +204,18 @@ main > div.container_product {
 }
 
 .padaria{
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 150px;
     width: 60%;
+    
 }
 
 .bebidas{
     background-size: contain;
     background-repeat: no-repeat;
-    height: 180px;
+    height: 210px;
     width: 60%;
-    translate: 10px 0px;
 }
 
 .borda{
@@ -218,7 +242,7 @@ main > div.container_product {
     display: none;
     background-color: rgba(128, 128, 128, 0.089);
     padding: 20px;
-    
+
 }
 
 .containercard{
@@ -226,7 +250,7 @@ main > div.container_product {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    gap: 5px 5px;
-   
+
 }
 
 .containercard p{
@@ -277,6 +301,7 @@ footer #endereco{
     padding: 10px;
     font-size: 0.9em;
     text-align: center;
+    height: 30px;
 }
 
 footer span{
