@@ -6,6 +6,7 @@ $(document).ready(function(){
   let main = $('main');
   let iconCartSpan = $('#cartItens');
   let listCartHTML = $('.listCart');
+  let totalHTML = $('.totalPrice');
 
   let pagamento = $('.checkOut');
   let closePay = $('.closePay');
@@ -14,55 +15,55 @@ $(document).ready(function(){
     {
       "id": 1,
       "name": "Alcatra com maminha",
-      "price": 28,
+      "price": 28.00,
       "image": "produtos/alcatra.png"
     },
     {
       "id": 2,
       "name": "Ponta de peito bovina",
-      "price": 30,
+      "price": 30.00,
       "image": "produtos/pontadepeito.jpeg"
     },
     {
       "id": 3,
       "name": "Lagarto bovino",
-      "price": 25,
+      "price": 25.00,
       "image": "produtos/lagartobovino.jpeg"
     },
     {
       "id": 4,
       "name": "Picanha",
-      "price": 85,
+      "price": 85.00,
       "image": "produtos/picanha.jpeg"
     },
     {
       "id": 5,
       "name": "Bisteca de contra file",
-      "price": 40,
+      "price": 40.00,
       "image": "produtos/bistecadocontrafile.jpeg"
     },
     {
       "id": 6,
       "name": "Linguiça toscana Frimesa",
-      "price": 20,
+      "price": 20.00,
       "image": "produtos/linguiçatoscanaFrimesaKG.jpeg"
     },
     {
       "id": 7,
       "name": "Costelinha suína",
-      "price": 20,
+      "price": 20.00,
       "image": "produtos/costelinhasuínaKG.jpeg"
     },
     {
       "id": 8,
       "name": "Toucinho suíno",
-      "price": 15,
+      "price": 15.00,
       "image": "produtos/toicinho.jpeg"
     },
     {
       "id": 9,
       "name": "Coxa com Sobrecoxa",
-      "price": 22,
+      "price": 22.00,
       "image": "produtos/coxacomsobre.jpeg"
     },
     {
@@ -74,7 +75,7 @@ $(document).ready(function(){
     {
       "id": 11,
       "name": "Limão Tahity",
-      "price": 0.80,
+      "price": 0.8,
       "image": "produtos/limao-tahity.webp"
     },
     {
@@ -110,37 +111,37 @@ $(document).ready(function(){
     {
       "id": 17,
       "name": "Alface Americana",
-      "price": 15,
+      "price": 15.00,
       "image": "produtos/alface-americana-un.webp"
     },
     {
       "id": 18,
       "name": "Pão Frances Unidade",
-      "price": 28,
+      "price": 2.00,
       "image": "produtos/paofrances.webp"
     },
     {
       "id": 19,
       "name": "Pão de Queijo Unidade",
-      "price": 28,
+      "price": 28.00,
       "image": "produtos/paodequijo.webp"
     },
     {
       "id": 20,
       "name": "Pão de Forma Plus Vita 480g",
-      "price": 28,
+      "price": 28.00,
       "image": "produtos/paodeforma.webp"
     },
     {
       "id": 21,
       "name": "Donut Ring Recheio de Chocolate",
-      "price": 28,
+      "price": 28.00,
       "image": "produtos/donutChocolate.webp"
     },
     {
       "id": 22,
       "name": "Sonho de Creme",
-      "price": 28,
+      "price": 28.00,
       "image": "produtos/sonhodeCreme.webp"
     },
     {
@@ -152,79 +153,79 @@ $(document).ready(function(){
     {
       "id": 24,
       "name": "Muffin Red Velvet Melhor Bocado 80g",
-      "price": 28,
+      "price": 28.00,
       "image": "produtos/muffin.webp"
     },
     {
       "id": 25,
       "name": "Bolo de Laranja 1Kg",
-      "price": 28,
+      "price": 28.00,
       "image": "produtos/abolo_de_laranja.webp"
     },
     {
       "id": 26,
       "name": "Bolinho Ana Maria de Chocolate 70g",
-      "price": 28,
+      "price": 28.00,
       "image": "produtos/bolinhodeChocoloteDonaMaria.webp"
     },
     {
       "id": 27,
-      "name": "Água Miner Crystal sem Gás 500ml",
-      "price": 28,
+      "name": "",
+      "price": 28.00,
       "image": "produtos/agua-mineral-crystal-sem-gas-500ml.webp"
     },
     {
       "id": 28,
-      "name": "Coca Cola sem Açúcar 250ml",
-      "price": 28,
+      "name": "Água Miner Crystal sem Gás 500ml",
+      "price": 1.79,
       "image": "produtos/coca250mmlsemaçucar.webp"
     },
     {
       "id": 29,
-      "name": "Pepsi 350ml",
-      "price": 28,
+      "name": "Coca Cola sem Açúcar 250ml",
+      "price": 2.49,
       "image": "produtos/pepsi350ml.webp"
     },
     {
       "id": 30,
-      "name": "Água Miner Crystal com Gás 1,5l",
-      "price": 28,
+      "name": "Pepsi 350ml",
+      "price": 2.99,
       "image": "produtos/agua-mineral-crystal-com-gas-1-5l.webp"
     },
     {
       "id": 31,
-      "name": "Cerveja Brahma Duplo Malte Lata 350Ml",
-      "price": 28,
+      "name": "Água Miner Crystal com Gás 1,5l",
+      "price": 3.99,
       "image": "produtos/cerv-brahma-duplo-malte-lt-sleek-350ml.webp"
     },
     {
       "id": 32,
-      "name": "Cerveja Heineken Long Neck 330Ml",
-      "price": 28,
+      "name": "Cerveja Brahma Duplo Malte Lata 350Ml",
+      "price": 4.29,
       "image": "produtos/cerveja-heineken-ln-330ml.webp"
     },
     {
       "id": 33,
-      "name": "Energético Monster Energy 473ml",
-      "price": 28,
+      "name": "Cerveja Heineken Long Neck 330Ml",
+      "price": 6.49,
       "image": "produtos/energetico-monster-energy-473ml.webp"
     },
     {
       "id": 34,
-      "name": "Alcatra com maminha",
-      "price": 28,
+      "name": "Energético Monster Energy 473ml",
+      "price": 8.79,
       "image": "produtos/alcatra.png"
     },
     {
       "id": 35,
       "name": "Refrigerante Coca-Cola 2L",
-      "price": 28,
+      "price": 9.29,
       "image": "produtos/refrig-coca-cola-pet-2l.webp"
     },
     {
       "id": 36,
       "name": "Chá Matte Leão 24G Natural",
-      "price": 28,
+      "price": 10.99,
       "image": "produtos/cha-mate-leao-24g-natural.webp"
     }
 
@@ -273,6 +274,7 @@ $(document).ready(function(){
   const addCartToHTML = () => {
     listCartHTML.html('');
     let totalQuantity = 0;
+    let totalPay = 0;
     if(carts.length > 0){
       carts.forEach(cart => {
         totalQuantity = totalQuantity + cart.quantity;
@@ -289,7 +291,7 @@ $(document).ready(function(){
             ${info.name}
           </div>
           <div class="totalPrice">
-            $${info.price * cart.quantity}
+            $${Math.round(info.price * cart.quantity * 100)/100}
           </div>
           <div class="quantity">
             <span class="minus"><</span>
@@ -297,7 +299,11 @@ $(document).ready(function(){
             <span class="plus">></span>
         `;
         listCartHTML.append(newCart);
+        totalPay += info.price * cart.quantity;
+        totalHTML.text(`Total: R$${Math.round(totalPay*100)/100}`);
       })
+    }else{
+      totalHTML.text('Total: R$0,00');
     }
     iconCartSpan.text(totalQuantity);
   }
