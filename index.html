@@ -461,15 +461,52 @@
                 </div>
             
             </div>
+            <div id="janelaModal" class="modal fade" >
+        
+                <div class="modal-dialog">
+        
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">Formas de Pagamento</h3>
+                            <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+        
+                        <div class="modal-body">
+                            <p id="Credito ">Crédito</p>
+                        <div class=" metodos">
+                            <img src="imagens/cartoes/mastercard.png" alt="" class="cartoes">
+                            <img src="imagens/cartoes/elo.png" alt="" class="cartoes">
+                            <img src="imagens/cartoes/american.png" alt="" class="cartoes">
+                            <img src="imagens/cartoes/visa.png" alt="" class="cartoes">
+                            <img src="imagens/cartoes/diners.png" alt="" class="cartoes">
+                            <img src="imagens/cartoes/hypercard.png" alt="" class="cartoes">
+                        </div>
+                        <p id="Debito">Débito bancário</p>
+                        <div class="metodos">
+                            <img src="imagens/cartoes/bradesco.png" class="cartoes">
+                            <img src="imagens/cartoes/c6.png" class="cartoes">
+                            <img src="imagens/cartoes/inter.png" class="cartoes">
+                            <img src="imagens/cartoes/nubank.png" class="cartoes">
+                            <img src="imagens/cartoes/itau.png" class="cartoes">
+                            <img src="imagens/cartoes/santander.png" class="cartoes">
+                            <h1 class="d-block totalTotalPrice"></h1>
+                        </div>
+        
+                        <div class="modal-footer">
+                            <button class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </main>
     <footer>
-        <div id="pagamento ">
-            <h1  id="h1formas" class="">Formas de pagamento
+        <div id="pagamento">
+            <h1  id="h1formas" >Formas de pagamento
                 <img src="imagens/icons8-divisa-para-baixo-24.png" alt="" id="flechabaixo" onclick="formas()">
                 <img src="imagens/icons8-divisa-para-cima-24.png" alt="" id="flechacima" onclick="formas()">
             </h1>
                                 
-            <div id="card ">    
+            <div id="card">    
                 <div class="containercard">
                     <p id="credito">Crédito</p>
                     <img src="imagens/cartoes/mastercard.png" alt="" class="cartoes" >
@@ -492,7 +529,6 @@
             
                    
         </div> 
-            
         <div id="endereco">
             <span><img src="imagens/icons8-cadeado-32.png" alt=""  id="cadeado"><p>Ambiente <strong>Seguro</strong></p></span>
                 <p id="local">
@@ -510,36 +546,11 @@
         <div class="totalTotalPrice">Total: R$</div>
         <div class="button">
             <button class="closeCart btn btn-light rounded-0">Fechar</button>
-            <button class="checkOut btn btn-warning rounded-0">Pagamento</button>
+            <button class="checkOut btn btn-warning rounded-0" data-bs-target="#janelaModal" data-bs-toggle="modal">Pagamento</button>
         </div>
     </div>
+    
     <script src="script.js"></script>
-    <div class="rounded shadow pay">
-        <h1>Formas de Pagamento</h1>
-        
-        <div id="tipoPagamento">    
-            
-            <p id="Credito">Crédito</p>
-            <div class="metodos">
-                <img src="imagens/cartoes/mastercard.png" alt="" class="cartoes" >
-                <img src="imagens/cartoes/elo.png" alt="" class="cartoes">
-                <img src="imagens/cartoes/american.png" alt="" class="cartoes">
-                <img src="imagens/cartoes/visa.png" alt="" class="cartoes">
-                <img src="imagens/cartoes/diners.png" alt="" class="cartoes">
-                <img src="imagens/cartoes/hypercard.png" alt="" class="cartoes">
-            </div>
-            <p id="Debito">Débito bancário</p>
-            <div class="metodos">  
-                <img src="imagens/cartoes/bradesco.png" class="cartoes">
-                <img src="imagens/cartoes/c6.png" class="cartoes">
-                <img src="imagens/cartoes/inter.png" class="cartoes">
-                <img src="imagens/cartoes/nubank.png" class="cartoes">
-                <img src="imagens/cartoes/itau.png" class="cartoes">
-                <img src="imagens/cartoes/santander.png" class="cartoes">
-            </div>
-        </div>
-        <h1 class="totalTotalPrice"></h1>
-        <button class="btn btn-close text-dark closePay"></button>
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
