@@ -39,3 +39,19 @@ $(document).ready(function(){
         $('#barraPesquisa').css({"outline": "none", "border": "1px solid rgb(35, 35, 203)" });
     });
 });
+
+function fechar(){
+    if(nav.style.display == 'flex'){
+        nav.style.display = 'none'
+    } else{
+        nav.style.display = 'flex'
+    }
+}
+
+function fechar(){
+    if(nav2.style.display == 'flex'){
+        nav2.style.display = 'none'
+    } else{
+        nav2.style.display = 'flex'
+    }
+}

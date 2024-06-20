@@ -61,7 +61,15 @@
     grid-template-columns: 1fr 1fr;
     gap: 5px;
 
-}
+  }
+
+  #navbar-icon{
+    display: none;
+  }
+
+  #nav{
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 990px) {
@@ -100,8 +108,8 @@
 
   }
 
-  .carnes{
-    height: 200px;
+  #navbar-icon{
+    display: none;
   }
 }
 

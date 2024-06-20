@@ -19,7 +19,7 @@ header {
     border-bottom: 1px solid rgba(0, 0, 0, 0.226);
     flex-wrap: wrap;
     align-items: center;
-    background-image: linear-gradient(135deg, rgb(207, 2, 207), #b504eb, #d23eff);
+    background-image: linear-gradient(135deg, rgb(201, 255, 52), rgb(251, 255, 15), rgb(252, 238, 48));
     padding: 10px;
     position: fixed;
     width: 100vw;
@@ -181,8 +181,8 @@ main > div.container_product {
 .hort{
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 150px;
-    width: 50%;
+    height: 120px;
+    width: 40%;
 }
 
 .w{
@@ -192,7 +192,7 @@ main > div.container_product {
 .carnes{
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 150px;
+    height: 120px;
     width: 60%;
     
 }
@@ -224,8 +224,8 @@ main > div.container_product {
 
 #pagamento h1{
     font-size: 1.09em;
-    font-weight: normal;
-    color: var(--cor5);
+    font-weight: bold;
+    color: var(--cor1);
     border-top: 1px solid rgba(0, 0, 0, 0.507);
     border-bottom: 1px solid rgba(0, 0, 0, 0.514);
     padding: 20px;
