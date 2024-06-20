@@ -48,6 +48,6 @@ function fechar(){
     }
 }
 
-if(body.style.heigth >= '653px'){
-    nav.style.display = 'none'
+if(body.style.width >= '767px'){
+    navbar-collapse.classList.remove('collapse')
 }
