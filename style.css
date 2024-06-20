@@ -152,7 +152,7 @@ span#cartItens {
 main {
     height: auto;
     position: relative;
-    top: 200px;
+    top: 170px;
 }
 .h1_produtos {
     text-align: center;
@@ -288,7 +288,7 @@ main > div.container_product {
 
 footer{
     position: relative;
-    top: 200px;
+    top: 170px;
 }
 
 footer #endereco{
