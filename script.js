@@ -48,6 +48,6 @@ function fechar(){
     }
 }
 
-if(body.style.heigth == '653px'){
+if(body.style.heigth >= '653px'){
     nav.style.display = 'none'
 }
