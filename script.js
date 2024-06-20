@@ -48,10 +48,6 @@ function fechar(){
     }
 }
 
-function fechar(){
-    if(nav2.style.display == 'flex'){
-        nav2.style.display = 'none'
-    } else{
-        nav2.style.display = 'flex'
-    }
+if(body.style.heigth == '653px'){
+    nav.style.display = 'none'
 }
