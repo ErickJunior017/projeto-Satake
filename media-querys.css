@@ -55,6 +55,11 @@
     height: 400px;
     
   }
+
+  .carnes{
+    height: 200px;
+  }
+
    
   main > div.container_product {
     display: grid;

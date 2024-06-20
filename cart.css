@@ -24,7 +24,7 @@ body.showCart .cartTab {
   grid-template-columns: repeat(2, 1fr);
 }
 .cartTab .button button{
-  background-color: #18ff24;
+  background-color: #f0ff18;
   border: none;
   font-weight: 500;
   cursor: pointer;
