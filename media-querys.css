@@ -55,6 +55,11 @@
     height: 400px;
     
   }
+
+  .carnes{
+    height: 200px;
+  }
+
    
   main > div.container_product {
     display: grid;
@@ -68,8 +73,12 @@
   }
 
   #nav{
-    display: flex;
+    display: none;
   }
+
+  #nav2{
+    display: flex;
+}
 }
 
 @media screen and (min-width: 990px) {
@@ -111,6 +120,14 @@
   #navbar-icon{
     display: none;
   }
+
+  #nav2{
+    display: flex;
+}
+
+#nav{
+  display: none;
+}
 }
 
 @media screen and (min-width: 653px) and (max-width: 758px){
