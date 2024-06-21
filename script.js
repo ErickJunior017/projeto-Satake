@@ -47,7 +47,3 @@ function fechar(){
         nav.style.display = 'flex'
     }
 }
-
-if(body.style.width >= '767px'){
-    navbar-collapse.classList.remove('collapse')
-}

@@ -68,10 +68,6 @@
 
   }
 
-  #navbar-icon{
-    display: none;
-  }
-
 }
 
 @media screen and (min-width: 990px) {
@@ -110,9 +106,6 @@
 
   }
 
-  #navbar-icon{
-    display: none;
-  }
 }
 
 @media screen and (min-width: 653px) and (max-width: 758px){
