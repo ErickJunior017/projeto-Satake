@@ -7,6 +7,7 @@ $(document).ready(function(){
   let iconCartSpan = $('#cartItens');
   let listCartHTML = $('.listCart');
   let totalHTML = $('.totalTotalPrice');
+  let logo = $('#logoSatake');
 
   let pagamento = $('.checkOut');
   let closePay = $('.closePay');
@@ -354,6 +355,9 @@ $(document).ready(function(){
   closePay.click(function(){
     body.toggleClass('showPay');
     body.toggleClass('escurecer');
+  })
+  logo.click(function(){
+    window.scrollTo(0, 0);
   })
 });
 
