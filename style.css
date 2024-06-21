@@ -155,7 +155,9 @@ span#cartItens {
     border-radius: 50%;
     cursor: pointer;
 }
-
+#logoSatake {
+    cursor: pointer;
+}
 main {
     height: auto;
     position: relative;
