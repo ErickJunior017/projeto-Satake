@@ -130,12 +130,16 @@
 
 }
 
-@media screen and (min-width: 500px) and (max-width: 552px){
+@media screen and (min-width: 340px) and (max-width: 552px){
   
 
 ul.navbar-nav{
   display: grid;
   grid-template-columns: 0px 50px 50px 100px;
   translate: -15px 0px;
+}
+
+#satake{
+  display: none;
 }
 }
