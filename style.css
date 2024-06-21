@@ -45,6 +45,11 @@ header {
     color: yellow;
 }
 
+
+ul.navbar-nav{
+    justify-content: space-around;
+    display: flex;
+}
 #banner{
     width: 400px;
     margin-left: 0px;
