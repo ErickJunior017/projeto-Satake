@@ -7,6 +7,7 @@ $(document).ready(function(){
   let iconCartSpan = $('#cartItens');
   let listCartHTML = $('.listCart');
   let totalHTML = $('.totalTotalPrice');
+  let logo = $('#logoSatake');
 
   let pagamento = $('.checkOut');
   let closePay = $('.closePay');
@@ -291,16 +292,17 @@ $(document).ready(function(){
             ${info.name}
           </div>
           <div class="totalPrice">
-            $${Math.round(info.price * cart.quantity * 100)/100}
+            R$${(Math.round(info.price * cart.quantity * 100)/100).toFixed(2)}
           </div>
           <div class="quantity">
             <span class="minus"><</span>
             <span>${cart.quantity}</span>
             <span class="plus">></span>
+          </div>
         `;
         listCartHTML.append(newCart);
         totalPay += info.price * cart.quantity;
-        totalHTML.text(`Total: R$${Math.round(totalPay*100)/100}`);
+        totalHTML.text(`Total: R$${(Math.round(totalPay*100)/100).toFixed(2)}`);
       })
     }else{
       totalHTML.text('Total: R$0,00');
@@ -354,6 +356,9 @@ $(document).ready(function(){
   closePay.click(function(){
     body.toggleClass('showPay');
     body.toggleClass('escurecer');
+  })
+  logo.click(function(){
+    window.scrollTo(0, 0);
   })
 });
 
