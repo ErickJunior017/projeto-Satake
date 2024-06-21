@@ -130,7 +130,7 @@
 
 }
 
-@media screen and (min-width: 340px) and (max-width: 552px){
+@media screen and (min-width: 346px) and (max-width: 552px){
   
 
 ul.navbar-nav{
@@ -142,4 +142,8 @@ ul.navbar-nav{
 #satake{
   display: none;
 }
+}
+
+@media screen and (max-width: 345px){
+  
 }
