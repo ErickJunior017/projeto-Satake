@@ -47,7 +47,3 @@ function fechar(){
         nav.style.display = 'flex'
     }
 }
-
-if(body.style.heigth == '653px'){
-    nav.style.display = 'none'
-}
