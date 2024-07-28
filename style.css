@@ -27,6 +27,11 @@ header {
     top: 0;
 }
 
+#satake{
+    display: inline;
+    font: normal bolder 1.5em Arial;
+  }
+
 .search{
     border: none;
     background-color: white;
@@ -104,6 +109,12 @@ ul.navbar-nav{
     flex-wrap: wrap;
     align-items: center;
 }
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
 span#menu:hover {
     cursor: pointer;
 }
@@ -121,6 +132,11 @@ span#cart{
     cursor: pointer;
     padding: 2px;
     position: relative;
+}
+
+.div-pesquisa{
+    display: flex;
+    width: 50%;
 }
 
 div#shop {

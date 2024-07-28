@@ -1,5 +1,9 @@
 @charset "UTF-8";
-
+@media screen and (min-width: 1000px) and (max-width: 1192px){
+  .cartTab {
+    width: 38% !important;
+  }
+}
 
 @media screen and (min-width: 992px) {
   .flex {
@@ -26,7 +30,9 @@
     margin: 0px;
   }
 }
-@media screen and (min-width: 767px) and (max-width: 990px) {
+
+
+@media screen and (min-width: 767px) and (max-width: 926px) {
   #banner{
     width: 90%;
   }
@@ -68,8 +74,9 @@
 
   }
 
-  
-
+  .cartTab {
+    width: 50% !important;
+  }
 }
 
 @media screen and (min-width: 990px) {
@@ -110,7 +117,9 @@
   
 }
 
-@media screen and (min-width: 653px) and (max-width: 758px){
+
+
+@media screen and (min-width: 510px) and (max-width: 758px){
  .padaria, .bebidas{
     translate: 20px 0px;
 }
@@ -128,6 +137,11 @@
   height: 120px;
 }
 
+.cartTab {
+  width: 62% !important;
+}
+
+
 }
 
 @media screen and (min-width: 346px) and (max-width: 552px){
@@ -142,8 +156,54 @@ ul.navbar-nav{
 #satake{
   display: none;
 }
+
+.cartTab {
+  width: 86% !important;
+}
 }
 
-@media screen and (max-width: 345px){
+@media screen and (min-width: 320px) and (max-width: 500px){
+    .header{
+      display: grid;
+      grid-template-columns: auto auto auto ;
   
+    }
+
+
+    .div-pesquisa{
+      order: 6;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      width: auto;
+      height: 50px;
+    }
+
+    #satake{
+      display: inline;
+      font: normal bolder 1.5em Arial;
+    }
+    #logoSatake{
+      font-size: 1.2em;
+    }
+
+    div#shop {
+      top: 12px;
+  }
+
+  span#cartItens {
+    top: 30%;
+    right: 10%;
+  }
+
+  .containercard{
+    grid-template-columns: auto auto !important;
+  }
+  
+  
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+  .cartTab {
+    width: 94% !important;
+  }
 }
